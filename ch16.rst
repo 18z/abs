@@ -1,0 +1,11 @@
+16.4. Text Processing Commands
+16.4. 文字處理指令
+
+Commands affecting text and text files
+操弄text及text files的指令
+
+sort
+File sort utility, often used as a filter in a pipe. This command sorts a text stream or file forwards or backwards, or according to various keys or character positions. Using the -m option, it merges presorted input files.	The info page lists its many capabilities and options. See Example 11-10, Example 11-11, and Example A-8.
+
+sort
+將檔案內容進行排序，通常會搭配pipe來進行過濾。此指令可依照不同排序方式(forwards, backwards, various keys, character positions)將text stream或text file內容進行排序。搭配選項與參數 -m, 可將已事先排序的input files合併。進一步了解sort的功能與選項。請參考Example 11-10, Example 11-11及Example A-8。
