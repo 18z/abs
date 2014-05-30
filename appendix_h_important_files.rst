@@ -7,12 +7,15 @@ These files contain the aliases and environmental variables made available to Ba
 
 /etc/profile
 Systemwide defaults, mostly setting the environment (all Bourne-type shells, not just Bash [1])
+系統層級上的環境設定
 
 /etc/bashrc
 systemwide functions and aliases for Bash
+系統層級上(涵蓋每一個使用者)的Bash設定檔
 
 $HOME/.bash_profile
 user-specific Bash environmental default settings, found in each user's home directory (the local counterpart to /etc/profile)
+針對特定使用者的bash環境設定檔，可在使用者加目錄中找到。
 
 $HOME/.bashrc
 user-specific Bash init file, found in each user's home directory (the local counterpart to /etc/bashrc).	Only interactive shells and user scripts read this file. See Appendix M for a sample .bashrc file.
