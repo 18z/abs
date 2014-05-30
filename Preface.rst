@@ -1,10 +1,9 @@
 ======= 
 Advanced Bash-Scripting Guide
 =======
-
 ======= 
 Bash腳本進階學習
-======
+=======
 
 An in-depth exploration of the art of shell scripting
 深入探討shell scripting之藝術
