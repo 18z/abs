@@ -17,5 +17,6 @@ The exercises and heavily-commented examples invite active reader participation,
 
 
 This book is suitable for classroom use as a general introduction to programming concepts. This document is herewith granted to the Public Domain. No copyright!
+
 本書可用於教授「程式設計觀念入門」之課堂。本書，無版權！
 
