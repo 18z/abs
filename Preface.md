@@ -23,4 +23,4 @@ This book is suitable for classroom use as a general introduction to programming
 
 ---
 Disclaimer：
-本譯作是譯者做開心的，如果有翻譯不當，請勿見諒。
+本譯作是譯者做開心的，如果有翻譯不當，敬請見諒。
