@@ -13,17 +13,17 @@
 * Part 2. 基礎篇
 
   * 3 特殊符號
-  * 4 Introduction to Variables and Parameters
-  * 5 Quoting
-  * 6 Exit and Exit Status
-  * 7 Tests
-  * 8 Operations and Related Topics
+  * 4 變數與參數簡介
+  * 5 引號使用
+  * 6 結束及結束之狀態
+  * 7 測試
+  * 8 運算元、運算子及其他相關主題
 
 * Part 3. 進階篇
-  * 9 Another Look at Variables
-  * 10 Manipulating Variables
-  * 11 Loops and Branches
-  * 12 Command Substitution
+  * 9 再論變數
+  * 10 操弄變數
+  * 11 迴圈(Loops)與分流(Branches)
+  * 12 指令替換
   * 13 Arithmetic Expansion
   * 14 Recess Time
 
