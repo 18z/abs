@@ -20,7 +20,6 @@ This book is suitable for classroom use as a general introduction to programming
 本書可用於教授「程式設計觀念入門」之課堂。本書，無版權！
 
 ---
-Disclaimer：
 ##### For Anita, the source of all the magic
 ##### 本書獻給Anita，妳是驅使這本書完成的動力來源。
 
