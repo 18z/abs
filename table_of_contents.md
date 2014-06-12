@@ -24,8 +24,8 @@
   * 10 操弄變數
   * 11 迴圈(Loops)與分流(Branches)
   * 12 指令替換
-  * 13 Arithmetic Expansion
-  * 14 Recess Time
+  * 13 算術擴展
+  * 14 課間休息
 
 * Part 4. Commands
   * 15 Internal Commands and Builtins
