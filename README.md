@@ -27,7 +27,7 @@ This book is suitable for classroom use as a general introduction to programming
 
 ### 目錄
 
-* Part 1. 引言
+* [Part 1. 引言](https://github.com/deanboole/abs/blob/master/part1-introduction.md)
 
   * 1 Shell 程式設計！	
   * 2 從 Sha-bang (#!) 入門
