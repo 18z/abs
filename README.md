@@ -82,3 +82,5 @@ This book is suitable for classroom use as a general introduction to programming
   * 38.4 Tools Used to Produce This Book
   * 38.5 Credits
   * 38.6 Disclaimer
+  * 
+  source: http://tldp.org/LDP/abs/html/
