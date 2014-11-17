@@ -49,12 +49,12 @@ This book is suitable for classroom use as a general introduction to programming
   * 13 算術擴展
   * 14 課間休息
 
-* Part 4. Commands
+* Part 4. 指令
   * 15 Internal Commands and Builtins
   * 16 External Filters, Programs and Commands
   * 17 System and Administrative Commands
 
-* Part 5. Advanced Topics
+* Part 5. 進階課題
   * 18 Regular Expressions
   * 19 Here Documents
   * 20 I/O Redirection
