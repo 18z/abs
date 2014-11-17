@@ -12,5 +12,9 @@ Virtually the entire repertoire of UNIX commands, utilities, and tools is availa
 If that were not enough, internal shell commands, such as testing and loop constructs, 
 lend additional power and flexibility to scripts. 
 
+基本上，幾乎所有的工具與Linux系統的指令都可以在shell腳本內被使用、呼叫。如果還想讓shell腳本發揮更大效用，則可搭配shell命令，例如：迴圈或測試相關指令。
+
 Shell scripts are especially well suited for administrative system tasks and other routine repetitive 
 tasks not requiring the bells and whistles of a full-blown tightly structured programming language.
+
+簡言之，shell腳本是特別為系統管理者量身定做的程式語言。
