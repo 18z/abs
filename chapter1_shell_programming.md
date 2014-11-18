@@ -28,6 +28,10 @@ Most short scripts work right the first time, and debugging even the longer ones
 
 絕大多數簡短的腳本第一次執行時，就能顯示出正確結果。即使是較長的腳本在debugging上也相當的直覺。
 
- In the early days of personal computing, the BASIC language enabled anyone reasonably computer proficient to write programs on an early generation of microcomputers. 
+In the early days of personal computing, the BASIC language enabled anyone reasonably computer proficient to write programs on an early generation of microcomputers. 
+
+早期，只要對電腦精通的人，即能用BASIC語言在microcmomputers上面寫程式。
  
 Decades later, the Bash scripting language enables anyone with a rudimentary knowledge of Linux or UNIX to do the same on modern machines.
+
+幾十年後，任何對Linux或UNIX有一定了解的人，也能透過Bash腳本語言達成同樣的目的。
