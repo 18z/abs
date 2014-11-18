@@ -27,3 +27,7 @@ Shell語法很簡單，甚至可用簡樸來形容。
 Most short scripts work right the first time, and debugging even the longer ones is straightforward.
 
 絕大多數簡短的腳本第一次執行時，就能顯示出正確結果。即使是較長的腳本在debugging上也相當的直覺。
+
+ In the early days of personal computing, the BASIC language enabled anyone reasonably computer proficient to write programs on an early generation of microcomputers. 
+ 
+Decades later, the Bash scripting language enables anyone with a rudimentary knowledge of Linux or UNIX to do the same on modern machines.
