@@ -6,7 +6,7 @@ and the user, it's also a fairly powerful programming language. A shell program,
 is an easy-to-use tool for building applications by "gluing together" system calls, tools, utilities, 
 and compiled binaries. 
 
-Shell是一種命令直譯器。其角色不僅是作業系統核心與使用者間的翻譯者，也是一種強大的程式語言。Shell程式，通稱為「腳本」，是一種容易上手的工具，其結合了「系統呼叫」、工具及一些編譯好的二進制執行檔。
+Shell是一種命令直譯器。其角色不僅是作業系統核心與使用者間的翻譯者，也是一種強大的程式語言。Shell程式，通稱為「腳本」，是一種容易上手的工具，其結合了系統呼叫、工具及一些編譯好的二進制執行檔。
 
 Virtually the entire repertoire of UNIX commands, utilities, and tools is available for invocation by a shell script.
 If that were not enough, internal shell commands, such as testing and loop constructs, 
