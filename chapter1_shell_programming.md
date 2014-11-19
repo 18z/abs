@@ -38,4 +38,8 @@ Decades later, the Bash scripting language enables anyone with a rudimentary kno
 
 We now have miniaturized single-board computers with amazing capabilities, such as the Raspberry Pi.
 
+現在我們有了像 Raspberry Pi這樣的小型裝置。
+
 Bash scripting provides a way to explore the capabilities of these fascinating devices.
+
+而Bash腳本提供了我們探索這些小型裝置capabilities的管道。
