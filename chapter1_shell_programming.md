@@ -53,3 +53,7 @@ Getting even a limited subset of the functionality to work in a script is often 
 In this way, the structure of the application can be tested and tinkered with, and the major pitfalls found before proceeding to the final coding in C, C++, Java, Perl, or Python.
 
 也因如此，application的架構是可被測試與修補的，在用C, C++, Java, Perl 或Python 實作之前，也可能找到重大的bug。
+
+Shell scripting hearkens back to the classic UNIX philosophy of breaking complex projects into simpler subtasks, of chaining together components and utilities. 
+
+Many consider this a better, or at least more esthetically pleasing approach to problem solving than using one of the new generation of high-powered all-in-one languages, such as Perl, which attempt to be all things to all people, but at the cost of forcing you to alter your thinking processes to fit the tool.
