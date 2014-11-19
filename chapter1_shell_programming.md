@@ -35,3 +35,7 @@ In the early days of personal computing, the BASIC language enabled anyone reaso
 Decades later, the Bash scripting language enables anyone with a rudimentary knowledge of Linux or UNIX to do the same on modern machines.
 
 幾十年後，任何對Linux或UNIX有一定了解的人，也能透過Bash腳本語言達成同樣的目的。
+
+We now have miniaturized single-board computers with amazing capabilities, such as the Raspberry Pi.
+
+Bash scripting provides a way to explore the capabilities of these fascinating devices.
