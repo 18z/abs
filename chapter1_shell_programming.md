@@ -43,3 +43,9 @@ We now have miniaturized single-board computers with amazing capabilities, such 
 Bash scripting provides a way to explore the capabilities of these fascinating devices.
 
 而Bash腳本提供了我們探索這些小型裝置capabilities的管道。
+
+A shell script is a quick-and-dirty method of prototyping a complex application. 
+
+Getting even a limited subset of the functionality to work in a script is often a useful first stage in project development. 
+
+In this way, the structure of the application can be tested and tinkered with, and the major pitfalls found before proceeding to the final coding in C, C++, Java, Perl, or Python.
