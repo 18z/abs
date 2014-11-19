@@ -61,3 +61,5 @@ Shell scripting 也富有UNIX的哲學，即將許多複雜的projects分化成�
 Many consider this a better, or at least more esthetically pleasing approach to problem solving than using one of the new generation of high-powered all-in-one languages, such as Perl, which attempt to be all things to all people, but at the cost of forcing you to alter your thinking processes to fit the tool.
 
 許多人都將shell scripting視為是優雅的解決方案，而不選擇其他威力更強的語言，例如Perl。Perl嘗試達成所有人想達成的所有任務，但使用的成本就是它也強迫改變使用者的思路，如此才能將Perl用得淋漓盡致。
+
+According to Herbert Mayer, "a useful language needs arrays, pointers, and a generic mechanism for building data structures." By these criteria, shell scripting falls somewhat short of being "useful." Or, perhaps not. . . .
