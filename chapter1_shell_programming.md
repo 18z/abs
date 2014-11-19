@@ -68,7 +68,11 @@ According to Herbert Mayer, "a useful language needs arrays, pointers, and a gen
 
 When not to use shell scripts
 
+何時不適合用 shell scripts?
+
 Resource-intensive tasks, especially where speed is a factor (sorting, hashing, recursion [2] ...)
+
+需耗費大量運算資源的任務，尤其當執行速度是一重要因素時(例如：排序、hashing或遞迴等。)
 
 Procedures involving heavy-duty math operations, especially floating point arithmetic, arbitrary precision calculations, or complex numbers (use C++ or FORTRAN instead)
 
