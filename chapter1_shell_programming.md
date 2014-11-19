@@ -76,15 +76,26 @@ Resource-intensive tasks, especially where speed is a factor (sorting, hashing, 
 
 Procedures involving heavy-duty math operations, especially floating point arithmetic, arbitrary precision calculations, or complex numbers (use C++ or FORTRAN instead)
 
+需要大量數學運算，特別是浮點數運算、高精度計算或複數等(use C++ or FORTRAN instead)。
+
 Cross-platform portability required (use C or Java instead)
+有跨平台需求時不適用(use C or Java instead)
 
 Complex applications, where structured programming is a necessity (type-checking of variables, function prototypes, etc.)
 
-Mission-critical applications upon which you are betting the future of the company
+開發複雜的應用程式，特別是需要結構化編程時(type-checking of variables, function prototypes, etc.)
 
-Situations where security is important, where you need to guarantee the integrity of your system and protect against intrusion, cracking, and vandalism
+Mission-critical applications upon which you are betting the future of the company.
 
-Project consists of subcomponents with interlocking dependencies
+負有重大使命的應用程式。未來公司成功與否將賭在這個應用程式上。
+
+Situations where security is important, where you need to guarantee the integrity of your system and protect against intrusion, cracking, and vandalism.
+
+當安全議題是重要的時候，不適合用shell scripting。當你需確保系統安全並保護系統免於被入侵、破解及被破壞時。
+
+Project consists of subcomponents with interlocking dependencies.
+
+當project內的子元間彼此環環相扣時，不適用shell scripting。
 
 Extensive file operations required (Bash is limited to serial file access, and that only in a particularly clumsy and inefficient line-by-line fashion.)
 
