@@ -63,3 +63,5 @@ Many consider this a better, or at least more esthetically pleasing approach to 
 許多人都將shell scripting視為是優雅的解決方案，而不選擇其他威力更強的語言，例如Perl。Perl嘗試達成所有人想達成的所有任務，但使用的成本就是它也強迫改變使用者的思路，如此才能將Perl用得淋漓盡致。
 
 According to Herbert Mayer, "a useful language needs arrays, pointers, and a generic mechanism for building data structures." By these criteria, shell scripting falls somewhat short of being "useful." Or, perhaps not. . . .
+
+根據 Herbert Mayer所說：「任一種useful的程式語言都需要陣列、指標以及generic mechanism來建立資料結構。」若依據上述標準，shell scripting好像就不那麼useful，甚至是不useful。
