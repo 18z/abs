@@ -79,6 +79,7 @@ Procedures involving heavy-duty math operations, especially floating point arith
 需要大量數學運算，特別是浮點數運算、高精度計算或複數等(use C++ or FORTRAN instead)。
 
 Cross-platform portability required (use C or Java instead)
+
 有跨平台需求時不適用(use C or Java instead)
 
 Complex applications, where structured programming is a necessity (type-checking of variables, function prototypes, etc.)
@@ -101,13 +102,21 @@ Extensive file operations required (Bash is limited to serial file access, and t
 
 Need native support for multi-dimensional arrays
 
+需要使用到多維陣列時 (native support)
+
 Need data structures, such as linked lists or trees
 
+需要使用到資料結構方法，例如鏈結串列或樹。
+
 Need to generate / manipulate graphics or GUIs
+
+需要產生或操控圖形化介面時。
 
 Need direct access to system hardware or external peripherals
 
 Need port or socket I/O
+
+需要使用到port或 socket I/O
 
 Need to use libraries or interface with legacy code
 
