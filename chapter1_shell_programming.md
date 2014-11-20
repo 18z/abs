@@ -129,3 +129,5 @@ Proprietary, closed-source applications (Shell scripts put the source code right
 專有或封閉原始碼的應用程式 (shell scripts的內容是任何人都可看見的)
 
 If any of the above applies, consider a more powerful scripting language -- perhaps Perl, Tcl, Python, Ruby -- or possibly a compiled language such as C, C++, or Java. Even then, prototyping the application as a shell script might still be a useful development step.
+
+若遇到上述提到的情境，建議考慮使用更強大的腳本語言 -- 例如：Perl, Tcl, Python, Ruby 或者是 C, C++, Java。即使如此，使用shell script來建立應用程式的prototype也還是一個相當好用的方法。
