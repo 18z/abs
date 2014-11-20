@@ -114,12 +114,18 @@ Need to generate / manipulate graphics or GUIs
 
 Need direct access to system hardware or external peripherals
 
+需要直接操控硬體或外部連接設備。
+
 Need port or socket I/O
 
 需要使用到port或 socket I/O
 
 Need to use libraries or interface with legacy code
 
+需要使用到legacy code的libraries或interface。
+
 Proprietary, closed-source applications (Shell scripts put the source code right out in the open for all the world to see.)
+
+專有或封閉原始碼的應用程式 (shell scripts的內容是任何人都可看見的)
 
 If any of the above applies, consider a more powerful scripting language -- perhaps Perl, Tcl, Python, Ruby -- or possibly a compiled language such as C, C++, or Java. Even then, prototyping the application as a shell script might still be a useful development step.
