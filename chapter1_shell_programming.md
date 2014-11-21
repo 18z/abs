@@ -100,6 +100,8 @@ Project consists of subcomponents with interlocking dependencies.
 
 Extensive file operations required (Bash is limited to serial file access, and that only in a particularly clumsy and inefficient line-by-line fashion.)
 
+需對大量檔案做處理時。(Bash在處理檔案時，只能用笨拙且無效率的方式，一行一行讀取文件。)
+
 Need native support for multi-dimensional arrays
 
 需要使用到多維陣列時 (native support)
