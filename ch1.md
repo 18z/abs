@@ -133,3 +133,20 @@ Proprietary, closed-source applications (Shell scripts put the source code right
 If any of the above applies, consider a more powerful scripting language -- perhaps Perl, Tcl, Python, Ruby -- or possibly a compiled language such as C, C++, or Java. Even then, prototyping the application as a shell script might still be a useful development step.
 
 若遇到上述提到的情境，建議考慮使用更強大的腳本語言 -- 例如：Perl, Tcl, Python, Ruby 或者是 C, C++, Java。即使如此，使用shell script來建立應用程式的prototype也還是一個相當好用的方法。
+
+Notes
+
+[1]	
+These are referred to as builtins, features internal to the shell.
+
+[2]	
+Although recursion is possible in a shell script, it tends to be slow and its implementation is often an ugly kludge.
+
+[3]	
+An acronym is an ersatz word formed by pasting together the initial letters of the words into a tongue-tripping phrase. This morally corrupt and pernicious practice deserves appropriately severe punishment. Public flogging suggests itself.
+
+[4]	
+Many of the features of ksh88, and even a few from the updated ksh93 have been merged into Bash.
+
+[5]	
+By convention, user-written shell scripts that are Bourne shell compliant generally take a name with a .sh extension. System scripts, such as those found in /etc/rc.d, do not necessarily conform to this nomenclature.
