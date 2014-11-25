@@ -142,6 +142,8 @@ These are referred to as builtins, features internal to the shell.
 [2]	
 Although recursion is possible in a shell script, it tends to be slow and its implementation is often an ugly kludge.
 
+雖然遞迴在shell script裡面是可以被實作的，但其執行速度慢且程式碼通常長得很醜。
+
 [3]	
 An acronym is an ersatz word formed by pasting together the initial letters of the words into a tongue-tripping phrase. This morally corrupt and pernicious practice deserves appropriately severe punishment. Public flogging suggests itself.
 
