@@ -152,3 +152,5 @@ Many of the features of ksh88, and even a few from the updated ksh93 have been m
 
 [5]	
 By convention, user-written shell scripts that are Bourne shell compliant generally take a name with a .sh extension. System scripts, such as those found in /etc/rc.d, do not necessarily conform to this nomenclature.
+
+依慣例，使用者自行撰寫的腳本一般會有.sh的副檔名。然而若是系統腳本，例如在 /etc/rc.d底下的腳本，則不必要依照此命名規則。
