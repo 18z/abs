@@ -150,6 +150,8 @@ An acronym is an ersatz word formed by pasting together the initial letters of t
 [4]	
 Many of the features of ksh88, and even a few from the updated ksh93 have been merged into Bash.
 
+許多 ksh88 (korn shell) 的功能以及少部分 ksh 93 中的功能都已被整合在 Bash 中了。
+
 [5]	
 By convention, user-written shell scripts that are Bourne shell compliant generally take a name with a .sh extension. System scripts, such as those found in /etc/rc.d, do not necessarily conform to this nomenclature.
 
