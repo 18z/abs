@@ -139,6 +139,8 @@ Notes
 [1]	
 These are referred to as builtins, features internal to the shell.
 
+也就是傳說中的shell 內建指令，例如：cd, echo 等
+
 [2]	
 Although recursion is possible in a shell script, it tends to be slow and its implementation is often an ugly kludge.
 
