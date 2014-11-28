@@ -149,6 +149,8 @@ Although recursion is possible in a shell script, it tends to be slow and its im
 [3]	
 An acronym is an ersatz word formed by pasting together the initial letters of the words into a tongue-tripping phrase. This morally corrupt and pernicious practice deserves appropriately severe punishment. Public flogging suggests itself.
 
+擷取各單字第一個英文字母組合而成的字母縮寫。
+
 [4]	
 Many of the features of ksh88, and even a few from the updated ksh93 have been merged into Bash.
 
