@@ -134,7 +134,11 @@ If any of the above applies, consider a more powerful scripting language -- perh
 
 若遇到上述提到的情境，建議考慮使用更強大的腳本語言 -- 例如：Perl, Tcl, Python, Ruby 或者是 C, C++, Java。即使如此，使用shell script來建立應用程式的prototype也還是一個相當好用的方法。
 
-We will be using Bash, an acronym [3] for "Bourne-Again shell" and a pun on Stephen Bourne's now classic Bourne shell. Bash has become a de facto standard for shell scripting on most flavors of UNIX. Most of the principles this book covers apply equally well to scripting with other shells, such as the Korn Shell, from which Bash derives some of its features, [4] and the C Shell and its variants. (Note that C Shell programming is not recommended due to certain inherent problems, as pointed out in an October, 1993 Usenet post by Tom Christiansen.)
+We will be using Bash, an acronym [3] for "Bourne-Again shell" and a pun on Stephen Bourne's now classic Bourne shell. 
+
+本書中，Bourne_Again shell我們簡稱 Bash。 
+
+Bash has become a de facto standard for shell scripting on most flavors of UNIX. Most of the principles this book covers apply equally well to scripting with other shells, such as the Korn Shell, from which Bash derives some of its features, [4] and the C Shell and its variants. (Note that C Shell programming is not recommended due to certain inherent problems, as pointed out in an October, 1993 Usenet post by Tom Christiansen.)
 
 What follows is a tutorial on shell scripting. It relies heavily on examples to illustrate various features of the shell. The example scripts work -- they've been tested, insofar as possible -- and some of them are even useful in real life. The reader can play with the actual working code of the examples in the source archive (scriptname.sh or scriptname.bash), [5] give them execute permission (chmod u+rx scriptname), then run them to see what happens. Should the source archive not be available, then cut-and-paste from the HTML or pdf rendered versions. Be aware that some of the scripts presented here introduce features before they are explained, and this may require the reader to temporarily skip ahead for enlightenment.
 
