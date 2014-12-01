@@ -148,6 +148,8 @@ Most of the principles this book covers apply equally well to scripting with oth
 
 (Note that C Shell programming is not recommended due to certain inherent problems, as pointed out in an October, 1993 Usenet post by Tom Christiansen.)
 
+(備註：C Shell programming 在本書中我們不推薦使用，因其有特定的inherent problems，該問題在1993年10月 Tom Christiansen 在Usenet中被提及)
+
 What follows is a tutorial on shell scripting. It relies heavily on examples to illustrate various features of the shell. The example scripts work -- they've been tested, insofar as possible -- and some of them are even useful in real life. The reader can play with the actual working code of the examples in the source archive (scriptname.sh or scriptname.bash), [5] give them execute permission (chmod u+rx scriptname), then run them to see what happens. Should the source archive not be available, then cut-and-paste from the HTML or pdf rendered versions. Be aware that some of the scripts presented here introduce features before they are explained, and this may require the reader to temporarily skip ahead for enlightenment.
 
 Unless otherwise noted, the author of this book wrote the example scripts that follow.
