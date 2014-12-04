@@ -6,6 +6,8 @@ In the simplest case, a script is nothing more than a list of system commands st
 
 At the very least, this saves the effort of retyping that particular sequence of commands each time it is invoked.
 
+至少，它省下每次重複輸入一串特定指令的過程。
+
 Example 2-1. cleanup: A script to clean up log files in /var/log
 
 # Cleanup
