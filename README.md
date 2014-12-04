@@ -1,7 +1,7 @@
 ###Bash腳本進階學習 - 深入探索shell scripting之藝術
 
 #####作者：Mendel Cooper; Email：thegrendel.abs@gmail.com
-#####譯者：KunYu Chen, FangWei Wang, Chih-Che Chang
+#####譯者：KunYu Chen, FangWei Wang, Chih-Che Chang, Bo-Jun Fang
 ---
 This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an intermediate/advanced level of instruction . . . all the while sneaking in little nuggets of UNIX® wisdom and lore.
 
