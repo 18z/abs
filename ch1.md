@@ -162,7 +162,11 @@ The example scripts work -- they've been tested, insofar as possible -- and some
 
 書中範例絕大部份都經過測試，有些腳本在實務上相當實用。
 
-The reader can play with the actual working code of the examples in the source archive (scriptname.sh or scriptname.bash), [5] give them execute permission (chmod u+rx scriptname), then run them to see what happens. Should the source archive not be available, then cut-and-paste from the HTML or pdf rendered versions. Be aware that some of the scripts presented here introduce features before they are explained, and this may require the reader to temporarily skip ahead for enlightenment.
+The reader can play with the actual working code of the examples in the source archive (scriptname.sh or scriptname.bash), [5] give them execute permission (chmod u+rx scriptname), then run them to see what happens. 
+
+讀者可實際把玩這些腳本。給予腳本執行權限 (chmod u+rx scriptname)，並執行看看會產生什麼結果。
+
+Should the source archive not be available, then cut-and-paste from the HTML or pdf rendered versions. Be aware that some of the scripts presented here introduce features before they are explained, and this may require the reader to temporarily skip ahead for enlightenment.
 
 Unless otherwise noted, the author of this book wrote the example scripts that follow.
 
