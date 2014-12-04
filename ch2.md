@@ -2,7 +2,7 @@
 ---
 In the simplest case, a script is nothing more than a list of system commands stored in a file.
 
-最簡單的腳本範例是儲存在檔案中的一串系統指令
+若舉一最簡單的例子，所謂的腳本(script)就是一個由許多系統指令組合而成的單一檔案。
 
 At the very least, this saves the effort of retyping that particular sequence of commands each time it is invoked.
 
