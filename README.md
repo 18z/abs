@@ -5,23 +5,23 @@
 ---
 This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an intermediate/advanced level of instruction . . . all the while sneaking in little nuggets of UNIX® wisdom and lore.
 
-本書涵蓋範圍包含shell scripting初級(無程式設計或腳本撰寫相關經驗的人皆可看懂)中級與高級知識，並從中帶領讀者淺嚐UNIX®的知識及智慧。
+`本書涵蓋範圍包含shell scripting初級(無程式設計或腳本撰寫相關經驗的人皆可看懂)中級與高級知識，並從中帶領讀者淺嚐UNIX®的知識及智慧。`
 
 It serves as a textbook, a manual for self-study, and as a reference and source of knowledge on shell scripting techniques.
 
-本教材可視為教科書、自學手冊或學習shell scripting技術之參考文獻。
+`本教材可視為教科書、自學手冊或學習shell scripting技術之參考文獻。`
 
 The exercises and heavily-commented examples invite active reader participation, under the premise that the only way to really learn scripting is to write scripts.
 
-本書提供練習題與含有大量註解的範例，希望能讓讀者有更多動手實做的機會。因為要真正學好scripting，就是得實際動手寫。
+`本書提供練習題與含有大量註解的範例，希望能讓讀者有更多動手實做的機會。因為要真正學好scripting，就是得實際動手寫。`
 
 This book is suitable for classroom use as a general introduction to programming concepts. This document is herewith granted to the Public Domain. No copyright!
 
-本書適用於一般教授「程式設計概論」之課堂。這本書是寫給社會大眾的。因此，不用擔心版權問題。因為本書，無版權！
+`本書適用於一般教授「程式設計概論」之課堂。這本書是寫給社會大眾的。因此，不用擔心版權問題。因為本書，無版權！`
 
 ---
 ##### For Anita, the source of all the magic
-##### 本書獻給Anita，妳是驅使這本書完成的動力來源。
+##### `本書獻給Anita，妳是驅使這本書完成的動力來源。`
 
 ---
 
