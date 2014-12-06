@@ -50,6 +50,8 @@ A shell script is a quick-and-dirty method of prototyping a complex application.
 
 Getting even a limited subset of the functionality to work in a script is often a useful first stage in project development. 
 
+> `在開發專案初期時，使用一些「功能沒那麼強大」的語言來實作通常都相當實用 (譯者註：有時候太強大反而造成許多不必要的麻煩，因為要考慮太多事情了。)`
+
 In this way, the structure of the application can be tested and tinkered with, and the major pitfalls found before proceeding to the final coding in C, C++, Java, Perl, or Python.
 
 >`也因如此，application的架構是可被測試與修補的，在用C, C++, Java, Perl 或Python 實作之前，也可能找到重大的bug。`
