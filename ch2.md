@@ -16,7 +16,7 @@ At the very least, this saves the effort of retyping that particular sequence of
 cd /var/log
 cat /dev/null > messages
 cat /dev/null > wtmp
-echo "Log files cleaned up."</pre></code>
+echo "Log files cleaned up."</code></pre>
 
 There is nothing unusual here, only a set of commands that could just as easily have been invoked one by one from the command-line on the console or in a terminal window. The advantages of placing the commands in a script go far beyond not having to retype them time and again. The script becomes a program -- a tool -- and it can easily be modified or customized for a particular application.
 
@@ -42,7 +42,7 @@ echo "Logs cleaned up."
 
 exit #  The right and proper method of "exiting" from a script.
      #  A bare "exit" (no parameter) returns the exit status
-     #+ of the preceding command. </pre><code>
+     #+ of the preceding command. </code></pre>
 
 Now that's beginning to look like a real script. But we can go even farther . . .
 
@@ -149,7 +149,7 @@ Each of the above script header lines calls a different command interpreter, be 
 
 Note that the path given at the "sha-bang" must be correct, otherwise an error message -- usually "Command not found." -- will be the only result of running the script. [6]
 
-#! can be omitted if the script consists only of a set of generic system commands, using no internal shell directives. The second example, above, requires the initial #!, since the variable assignment line, lines=50, uses a shell-specific construct. [7] Note again that #!/bin/sh invokes the default shell interpreter, which defaults to /bin/bash on a Linux machine.
+\#! can be omitted if the script consists only of a set of generic system commands, using no internal shell directives. The second example, above, requires the initial #!, since the variable assignment line, lines=50, uses a shell-specific construct. [7] Note again that #!/bin/sh invokes the default shell interpreter, which defaults to /bin/bash on a Linux machine.
 
 This tutorial encourages a modular approach to constructing a script. Make note of and collect "boilerplate" code snippets that might be useful in future scripts. Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
 
