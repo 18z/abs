@@ -168,7 +168,13 @@ The reader can play with the actual working code of the examples in the source a
 
 >`讀者可實際把玩這些腳本。給予腳本執行權限 (chmod u+rx scriptname)，並執行看看會產生什麼結果。`
 
-Should the source archive not be available, then cut-and-paste from the HTML or pdf rendered versions. Be aware that some of the scripts presented here introduce features before they are explained, and this may require the reader to temporarily skip ahead for enlightenment.
+Should the source archive not be available, then cut-and-paste from the HTML or pdf rendered versions. 
+
+>`如果source archive連結失效，則建議大家直接從網頁或PDF版本直接複製貼上想要嘗試的指令或腳本。`
+
+[source archive](http://bash.deta.in/abs-guide-latest.tar.bz2)
+
+Be aware that some of the scripts presented here introduce features before they are explained, and this may require the reader to temporarily skip ahead for enlightenment.
 
 Unless otherwise noted, the author of this book wrote the example scripts that follow.
 
