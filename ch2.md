@@ -8,7 +8,7 @@ At the very least, this saves the effort of retyping that particular sequence of
 
 >`至少，在每次需使用一連串特定指令時，它讓使用者省了不少力氣。`
 
-**Example 2-1. ***cleanup***: A script to clean up log files in /var/log**
+**Example 2-1. cleanup: A script to clean up log files in /var/log**
 
 <pre><code># Cleanup
 # Run as root, of course.
@@ -16,11 +16,11 @@ At the very least, this saves the effort of retyping that particular sequence of
 cd /var/log
 cat /dev/null > messages
 cat /dev/null > wtmp
-echo "Log files cleaned up."</pre><code>
+echo "Log files cleaned up."</pre></code>
 
 There is nothing unusual here, only a set of commands that could just as easily have been invoked one by one from the command-line on the console or in a terminal window. The advantages of placing the commands in a script go far beyond not having to retype them time and again. The script becomes a program -- a tool -- and it can easily be modified or customized for a particular application.
 
-**Example 2-2. ***cleanup***: An improved clean-up script**
+**Example 2-2. cleanup: An improved clean-up script**
 
 <pre><code>#!/bin/bash
 # Proper header for a Bash script.
@@ -46,7 +46,7 @@ exit #  The right and proper method of "exiting" from a script.
 
 Now that's beginning to look like a real script. But we can go even farther . . .
 
-**Example 2-3. ***cleanup***: An enhanced and generalized version of above scripts.**
+**Example 2-3. cleanup: An enhanced and generalized version of above scripts.**
 
 <pre><code>#!/bin/bash
 # Cleanup, version 3
