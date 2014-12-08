@@ -176,6 +176,8 @@ Should the source archive not be available, then cut-and-paste from the HTML or 
 
 Be aware that some of the scripts presented here introduce features before they are explained, and this may require the reader to temporarily skip ahead for enlightenment.
 
+>`書中部分腳本，我們會先介紹其功能，隨後再做細部解釋。因此，讀者可能須暫時跳過細部解釋，就直接先執行腳本享受樂趣一下。`
+
 Unless otherwise noted, the author of this book wrote the example scripts that follow.
 
 Notes
