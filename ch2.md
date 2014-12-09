@@ -18,7 +18,15 @@ cat /dev/null > messages
 cat /dev/null > wtmp
 echo "Log files cleaned up."</code></pre>
 
-There is nothing unusual here, only a set of commands that could just as easily have been invoked one by one from the command-line on the console or in a terminal window. The advantages of placing the commands in a script go far beyond not having to retype them time and again. The script becomes a program -- a tool -- and it can easily be modified or customized for a particular application.
+There is nothing unusual here, only a set of commands that could just as easily have been invoked one by one from the command-line on the console or in a terminal window.
+
+>`以上範例就如同平常在終端機中所使用的系統指令一樣，一行接著一行並沒有任何特別之處。`
+
+The advantages of placing the commands in a script go far beyond not having to retype them time and again. 
+
+>`將指令寫在腳本(script)中的優點在於它不必花費多餘的時間與力氣重複輸入同樣的指令。`
+
+The script becomes a program -- a tool -- and it can easily be modified or customized for a particular application.
 
 **Example 2-2. cleanup: An improved clean-up script**
 
