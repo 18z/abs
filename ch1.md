@@ -180,6 +180,8 @@ Be aware that some of the scripts presented here introduce features before they 
 
 Unless otherwise noted, the author of this book wrote the example scripts that follow.
 
+>`除非有特別提出來，否則此書作者皆依照上述所講規範撰寫腳本。`
+
 Notes
 
 [1]	
