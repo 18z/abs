@@ -28,6 +28,8 @@ The advantages of placing the commands in a script go far beyond not having to r
 
 The script becomes a program -- a tool -- and it can easily be modified or customized for a particular application.
 
+>`腳本(script)可以算是一支程式(program)抑或是一個工具(tool)，並且它能針對不同應用需求而輕易去做修改或客製化。`
+
 **Example 2-2. cleanup: An improved clean-up script**
 
 <pre><code>#!/bin/bash
