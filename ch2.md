@@ -56,6 +56,8 @@ exit #  The right and proper method of "exiting" from a script.
 
 Now that's beginning to look like a real script. But we can go even farther . . .
 
+>`現在這段腳本更貼近實際應用，但我們可以再進一步讓它更加完善。`
+
 **Example 2-3. cleanup: An enhanced and generalized version of above scripts.**
 
 <pre><code>#!/bin/bash
