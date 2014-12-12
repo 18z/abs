@@ -30,9 +30,9 @@ This book is suitable for classroom use as a general introduction to programming
 * [Part 1. 引言](https://github.com/deanboole/abs/blob/master/part1-introduction.md)
 
   * [1 Shell 程式設計！](https://github.com/deanboole/abs/blob/master/ch1.md)
-  * 2 [從 Sha-bang (#!) 入門](https://github.com/deanboole/abs/blob/master/ch2.md)
-  * 2.1 執行腳本
-  * 2.2 初步練習
+  * [2 從 Sha-bang (#!) 入門](https://github.com/deanboole/abs/blob/master/ch2.md)
+  * [2.1 執行腳本](https://github.com/deanboole/abs/blob/master/ch2-1.md)
+  * [2.2 初步練習](https://github.com/deanboole/abs/blob/master/ch2-2.md)
 
 * Part 2. 基礎篇
 
