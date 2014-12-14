@@ -146,7 +146,13 @@ exit 0
 #  A zero return value from the script upon exit indicates success
 #+ to the shell.</code></pre>
 
-Since you may not wish to wipe out the entire system log, this version of the script keeps the last section of the message log intact. You will constantly discover ways of fine-tuning previously written scripts for increased effectiveness.
+Since you may not wish to wipe out the entire system log, this version of the script keeps the last section of the message log intact. 
+
+>`由於不希望消除整個系統紀錄，以上版本的腳本可以讓最新的系統紀錄保留。`
+
+You will constantly discover ways of fine-tuning previously written scripts for increased effectiveness.
+
+>`未來可以根據需求不斷調整腳本內容，讓腳本運作更加有效率。`
 
 The sha-bang (	#!) [1] at the head of a script tells your system that this file is a set of commands to be fed to the command interpreter indicated. The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
