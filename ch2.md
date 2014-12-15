@@ -152,7 +152,7 @@ Since you may not wish to wipe out the entire system log, this version of the sc
 
 You will constantly discover ways of fine-tuning previously written scripts for increased effectiveness.
 
->`未來你將會不斷發現讓腳本運作更加有效用的方式。`
+>`未來你會不斷發現提升舊腳本效率的方法。`
 
 The sha-bang (	#!) [1] at the head of a script tells your system that this file is a set of commands to be fed to the command interpreter indicated. The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
