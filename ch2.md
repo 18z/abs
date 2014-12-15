@@ -154,7 +154,11 @@ You will constantly discover ways of fine-tuning previously written scripts for 
 
 >`未來你會不斷發現提升舊腳本效率的方法。`
 
-The sha-bang (	#!) [1] at the head of a script tells your system that this file is a set of commands to be fed to the command interpreter indicated. The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
+The sha-bang (	#!) [1] at the head of a script tells your system that this file is a set of commands to be fed to the command interpreter indicated. 
+
+>`腳本開頭的 sha-bang (#!)是告訴系統此腳本由一組系統指令組成，並且需要由指令直譯器(command interpreter)解讀。`
+
+The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
 <pre><code>#!/bin/sh
 #!/bin/bash
