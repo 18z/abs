@@ -56,6 +56,8 @@ exit #  The right and proper method of "exiting" from a script.
 
 Now that's beginning to look like a real script. But we can go even farther . . .
 
+>`現在這腳本越來越像樣了，但我們還可以再走遠一點點。`
+
 **Example 2-3. cleanup: An enhanced and generalized version of above scripts.**
 
 <pre><code>#!/bin/bash
@@ -144,9 +146,19 @@ exit 0
 #  A zero return value from the script upon exit indicates success
 #+ to the shell.</code></pre>
 
-Since you may not wish to wipe out the entire system log, this version of the script keeps the last section of the message log intact. You will constantly discover ways of fine-tuning previously written scripts for increased effectiveness.
+Since you may not wish to wipe out the entire system log, this version of the script keeps the last section of the message log intact. 
 
-The sha-bang (	#!) [1] at the head of a script tells your system that this file is a set of commands to be fed to the command interpreter indicated. The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
+>`由於不希望消除整個系統紀錄，以上版本的腳本可以讓最新的系統紀錄保留。`
+
+You will constantly discover ways of fine-tuning previously written scripts for increased effectiveness.
+
+>`未來你會不斷發現提升舊腳本效率的方法。`
+
+The sha-bang (	#!) [1] at the head of a script tells your system that this file is a set of commands to be fed to the command interpreter indicated. 
+
+>`腳本開頭的 sha-bang (#!)是告訴系統此腳本由一組系統指令組成，並且需要由指令直譯器(command interpreter)解讀。`
+
+The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
 <pre><code>#!/bin/sh
 #!/bin/bash
