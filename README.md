@@ -5,7 +5,7 @@
 ---
 This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an intermediate/advanced level of instruction . . . all the while sneaking in little nuggets of UNIX® wisdom and lore.
 
->`本書涵蓋範圍包含shell scripting初級(無程式設計或腳本撰寫相關經驗的人皆可看懂)中級與高級知識，並從中帶領讀者淺嚐UNIX®的知識及智慧。`
+* [x] >`本書涵蓋範圍包含shell scripting初級(無程式設計或腳本撰寫相關經驗的人皆可看懂)中級與高級知識，並從中帶領讀者淺嚐UNIX®的知識及智慧。`
 
 It serves as a textbook, a manual for self-study, and as a reference and source of knowledge on shell scripting techniques.
 
