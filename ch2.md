@@ -158,7 +158,11 @@ The sha-bang (	#!) [1] at the head of a script tells your system that this file 
 
 >`腳本開頭的 sha-bang (#!)是告訴系統此腳本由一組系統指令組成，並且需要由指令直譯器(command interpreter)解讀。`
 
-The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
+The #! is actually a two-byte [2] magic number, a special marker that designates a file type, or in this case an executable shell script (type man magic for more details on this fascinating topic). 
+
+>`#!實際上是兩個位元組[2]的魔術數字(magic number)，它是可以指明檔案類型的特殊標記，在上述範例中是標記檔案為可執行的腳本(你可以輸入 man 去了解更多有關這迷人主題的詳細資訊)。`
+
+Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
 <pre><code>#!/bin/sh
 #!/bin/bash
