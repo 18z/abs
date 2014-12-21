@@ -164,11 +164,11 @@ The #! is actually a two-byte [2] magic number, a special marker that designates
 
 Immediately following the sha-bang is a path name. 
 
-緊接在 sha-bang 後面的是路徑名稱
+>`緊接在 sha-bang 後面的是路徑名稱`
 
 This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. 
 
-這是解讀腳本內容的程式路徑，它可能是 shell、程式語言或者是應用程式。
+>`這是解讀腳本內容的程式路徑，它可能是 shell、程式語言或者是應用程式。`
 
 This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
