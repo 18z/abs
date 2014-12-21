@@ -162,7 +162,15 @@ The #! is actually a two-byte [2] magic number, a special marker that designates
 
 >`#!實際上是兩個位元組[2]的魔術數字(magic number)，它是可以指明檔案類型的特殊標記，在上述範例中是標記檔案為可執行的腳本(你可以輸入 man 去了解更多有關這迷人主題的詳細資訊)。`
 
-Immediately following the sha-bang is a path name. This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
+Immediately following the sha-bang is a path name. 
+
+緊接在 sha-bang 後面的是路徑名稱
+
+This is the path to the program that interprets the commands in the script, whether it be a shell, a programming language, or a utility. 
+
+這是解讀腳本內容的程式路徑，它可能是 shell、程式語言或者是應用程式。
+
+This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
 <pre><code>#!/bin/sh
 #!/bin/bash
