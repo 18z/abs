@@ -172,6 +172,8 @@ This is the path to the program that interprets the commands in the script, whet
 
 This command interpreter then executes the commands in the script, starting at the top (the line following the sha-bang line), and ignoring comments. [3]
 
+>`指令直譯器(command interpreter)之後會從腳本第一行(接在 sha-bang 這行後面)開始執行系統指令，並且會忽略註解部分。`
+
 <pre><code>#!/bin/sh
 #!/bin/bash
 #!/usr/bin/perl
