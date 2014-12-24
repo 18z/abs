@@ -6,3 +6,4 @@ What makes a character special? If it has a meaning beyond its literal meaning, 
 
 Special Characters Found In Scripts and Elsewhere
 
+>`特殊字元可以在腳本或是其它地方中被發現`
