@@ -191,6 +191,8 @@ Using #!/bin/sh, the default Bourne shell in most commercial variants of UNIX, m
 
 The script will, however, conform to the POSIX [5] sh standard.
 
+>`然而，這腳本將要符合 POSIX[5] sh 的標準。`
+
 Note that the path given at the "sha-bang" must be correct, otherwise an error message -- usually "Command not found." -- will be the only result of running the script. [6]
 
 \#! can be omitted if the script consists only of a set of generic system commands, using no internal shell directives. The second example, above, requires the initial #!, since the variable assignment line, lines=50, uses a shell-specific construct. [7] Note again that #!/bin/sh invokes the default shell interpreter, which defaults to /bin/bash on a Linux machine.
