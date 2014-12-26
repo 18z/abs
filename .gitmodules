@@ -1,0 +1,3 @@
+[submodule "abs_color"]
+	path = abs_color
+	url = https://github.com/deanboole/abs.git
