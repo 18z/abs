@@ -36,8 +36,8 @@ This book is suitable for classroom use as a general introduction to programming
 
 * Part 2. 基礎篇
 
-  * 3 特殊符號
-  * 4 變數與參數簡介
+  * [3 特殊符號](https://github.com/deanboole/abs/blob/master/ch3.md)
+  * [4 變數與參數簡介](https://github.com/deanboole/abs/blob/master/ch4.md)
   * 5 引號使用
   * 6 結束及結束之狀態
   * 7 測試
