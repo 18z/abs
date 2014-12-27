@@ -1,9 +1,16 @@
 第四章：變數與參數
 ---
 
-Table of Contents
+目錄
+
 4.1. Variable Substitution
+
+>`變數替換`
+
 4.2. Variable Assignment
+
+>`變數指派`
+
 4.3. Bash Variables Are Untyped
 4.4. Special Variable Types
 
