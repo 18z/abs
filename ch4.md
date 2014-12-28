@@ -12,6 +12,9 @@
 >`變數指派`
 
 4.3. Bash Variables Are Untyped
+
+>`Bash 變數是沒有特定類型的`
+
 4.4. Special Variable Types
 
 Variables are how programming and scripting languages represent data. A variable is nothing more than a label, a name assigned to a location or set of locations in computer memory holding an item of data.
