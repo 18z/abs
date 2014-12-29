@@ -10,6 +10,8 @@ Special Characters Found In Scripts and Elsewhere
 
 Comments. Lines beginning with a (with the exception of ) are comments and will not be executed.
 
+>`註解。句子開頭加上符號（如例子所示的『#』），代表這句子是註解並不會被執行。`
+
 <pre><code># This line is a comment.</pre></code>
 
 Comments may also occur following the end of a command.
