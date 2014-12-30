@@ -195,6 +195,8 @@ The script will, however, conform to the POSIX [5] sh standard.
 
 Note that the path given at the "sha-bang" must be correct, otherwise an error message -- usually "Command not found." -- will be the only result of running the script. [6]
 
+>`要注意的是 sha-bang 後面所接的路徑必須是正確的，否則執行結果只會出現錯誤訊息，通常是 "Command not found."。[6]`
+
 \#! can be omitted if the script consists only of a set of generic system commands, using no internal shell directives. The second example, above, requires the initial #!, since the variable assignment line, lines=50, uses a shell-specific construct. [7] Note again that #!/bin/sh invokes the default shell interpreter, which defaults to /bin/bash on a Linux machine.
 
 This tutorial encourages a modular approach to constructing a script. Make note of and collect "boilerplate" code snippets that might be useful in future scripts. Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
