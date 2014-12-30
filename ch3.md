@@ -16,6 +16,8 @@ Comments. Lines beginning with a (with the exception of ) are comments and will 
 
 Comments may also occur following the end of a command.
 
+>`註解也會出現在命令句的後方。`
+
 <pre><code> echo "A comment will follow." # Comment here.
  #                            ^ Note whitespace before #</pre></code>
 
