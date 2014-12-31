@@ -25,4 +25,6 @@ Variables are how programming and scripting languages represent data.
 
 A variable is nothing more than a label, a name assigned to a location or set of locations in computer memory holding an item of data.
 
+>`變數就像標籤一樣，標籤名稱指向一個或一組在電腦記憶體中特定位置。`
+
 Variables appear in arithmetic operations and manipulation of quantities, and in string parsing.
