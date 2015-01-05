@@ -23,6 +23,8 @@ Comments may also occur following the end of a command.
 
 Comments may also follow whitespace at the beginning of a line.
 
+>`註解的符號後方也可以先接上空白再開始整個句子。`
+
  <pre><code>    # A tab precedes this comment.</pre></code>
 Comments may even be embedded within a pipe.
 
