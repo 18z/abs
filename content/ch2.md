@@ -201,7 +201,11 @@ Note that the path given at the "sha-bang" must be correct, otherwise an error m
 
 >`如果腳本內容只是由一組系統指令所組成，並且沒有使用內置 shell 指令，則 \#! 可以省略。`
 
-The second example, above, requires the initial #!, since the variable assignment line, lines=50, uses a shell-specific construct. [7] Note again that #!/bin/sh invokes the default shell interpreter, which defaults to /bin/bash on a Linux machine.
+The second example, above, requires the initial #!, since the variable assignment line, lines=50, uses a shell-specific construct. [7] 
+
+>`上述第二個範例一開始需要使用 #!，因為變數分配使用 shell 特定結構 lines=50。[7]`
+
+Note again that #!/bin/sh invokes the default shell interpreter, which defaults to /bin/bash on a Linux machine.
 
 This tutorial encourages a modular approach to constructing a script. Make note of and collect "boilerplate" code snippets that might be useful in future scripts. Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
 
