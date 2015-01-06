@@ -207,6 +207,9 @@ The second example, above, requires the initial #!, since the variable assignmen
 
 Note again that #!/bin/sh invokes the default shell interpreter, which defaults to /bin/bash on a Linux machine.
 
+>`再次注意，#!/bin/sh 會呼叫預設的 shell 直譯器，在 Linux 中的預設路徑為 /bin/bash。`
+
+
 This tutorial encourages a modular approach to constructing a script. Make note of and collect "boilerplate" code snippets that might be useful in future scripts. Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
 
 <pre><code>E_WRONG_ARGS=85
