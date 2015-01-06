@@ -26,7 +26,10 @@ Comments may also follow whitespace at the beginning of a line.
 >`註解的符號後方也可以先接上空白再開始整個句子。`
 
  <pre><code>    # A tab precedes this comment.</pre></code>
+
 Comments may even be embedded within a pipe.
+
+>`註解甚至也可以在斜線中插入。`
 
 <pre><code> initial=( `cat "$startfile" | sed -e '/#/d' | tr -d '\n' |\
  # Delete lines containing '#' comment character.
