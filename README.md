@@ -5,7 +5,7 @@
 ---
 This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an intermediate/advanced level of instruction . . . all the while sneaking in little nuggets of UNIX® wisdom and lore.
 
-* [x] >`本書涵蓋範圍包含shell scripting初級(無程式設計或腳本撰寫相關經驗的人皆可看懂)中級與高級知識，並從中帶領讀者淺嚐UNIX®的知識及智慧。`
+* [x] `本書涵蓋範圍包含shell scripting初級(無程式設計或腳本撰寫相關經驗的人皆可看懂)中級與高級知識，並從中帶領讀者淺嚐UNIX®的知識及智慧。`
 
 It serves as a textbook, a manual for self-study, and as a reference and source of knowledge on shell scripting techniques.
 
@@ -30,7 +30,7 @@ This book is suitable for classroom use as a general introduction to programming
 * [Part 1. 引言](https://github.com/deanboole/abs/blob/master/content/part1-introduction.md)
 
   * [1 Shell 程式設計！](https://github.com/deanboole/abs/blob/master/content/ch1.md)
-  * [2 從 Sha-bang (#!) 入門](https://github.com/deanboole/abs/blob/content/master/ch2.md)
+  * [2 從 Sha-bang (#!) 入門](https://github.com/deanboole/abs/blob/master/content/ch2.md)
   * [2.1 執行腳本](https://github.com/deanboole/abs/blob/master/content/ch2-1.md)
   * [2.2 初步練習](https://github.com/deanboole/abs/blob/master/content/ch2-2.md)
 
