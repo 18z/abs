@@ -10,13 +10,15 @@ At the very least, this saves the effort of retyping that particular sequence of
 
 **Example 2-1. cleanup: A script to clean up log files in /var/log**
 
-<pre><code># Cleanup
+```bash
+# Cleanup
 # Run as root, of course.
 
 cd /var/log
 cat /dev/null > messages
 cat /dev/null > wtmp
-echo "Log files cleaned up."</code></pre>
+echo "Log files cleaned up."
+```
 
 There is nothing unusual here, only a set of commands that could just as easily have been invoked one by one from the command-line on the console or in a terminal window.
 
@@ -32,7 +34,8 @@ The script becomes a program -- a tool -- and it can easily be modified or custo
 
 **Example 2-2. cleanup: An improved clean-up script**
 
-<pre><code>#!/bin/bash
+```bash
+#!/bin/bash
 # Proper header for a Bash script.
 
 # Cleanup, version 2
@@ -52,7 +55,8 @@ echo "Logs cleaned up."
 
 exit #  The right and proper method of "exiting" from a script.
      #  A bare "exit" (no parameter) returns the exit status
-     #+ of the preceding command. </code></pre>
+     #+ of the preceding command. 
+```
 
 Now that's beginning to look like a real script. But we can go even farther . . .
 
@@ -60,7 +64,8 @@ Now that's beginning to look like a real script. But we can go even farther . . 
 
 **Example 2-3. cleanup: An enhanced and generalized version of above scripts.**
 
-<pre><code>#!/bin/bash
+```bash
+#!/bin/bash
 # Cleanup, version 3
 
 #  Warning:
@@ -144,7 +149,8 @@ echo "Log files cleaned up."
 
 exit 0
 #  A zero return value from the script upon exit indicates success
-#+ to the shell.</code></pre>
+#+ to the shell.
+```
 
 Since you may not wish to wipe out the entire system log, this version of the script keeps the last section of the message log intact. 
 
@@ -174,12 +180,14 @@ This command interpreter then executes the commands in the script, starting at t
 
 >`指令直譯器(command interpreter)之後會從腳本第一行(接在 sha-bang 這行後面)開始執行系統指令，並且會忽略註解部分。`
 
-<pre><code>#!/bin/sh
+```bash
+#!/bin/sh
 #!/bin/bash
 #!/usr/bin/perl
 #!/usr/bin/tcl
 #!/bin/sed -f
-#!/bin/awk -f</code></pre>
+#!/bin/awk -f
+```
 
 Each of the above script header lines calls a different command interpreter, be it /bin/sh, the default shell (bash in a Linux system) or otherwise. [4] 
 
@@ -210,9 +218,14 @@ Note again that #!/bin/sh invokes the default shell interpreter, which defaults 
 >`再次注意，#!/bin/sh 會呼叫預設的 shell 直譯器，在 Linux 中的預設路徑為 /bin/bash。`
 
 
-This tutorial encourages a modular approach to constructing a script. Make note of and collect "boilerplate" code snippets that might be useful in future scripts. Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
+This tutorial encourages a modular approach to constructing a script. 
 
-<pre><code>E_WRONG_ARGS=85
+>`本教程鼓勵使用模組化的方法去建立腳本內容。`
+
+Make note of and collect "boilerplate" code snippets that might be useful in future scripts. Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
+
+```bash
+E_WRONG_ARGS=85
 script_parameters="-a -h -m -z"
 #                  -a = all, -h = help, etc.
 
@@ -221,7 +234,8 @@ then
   echo "Usage: `basename $0` $script_parameters"
   # `basename $0` is the script's filename.
   exit $E_WRONG_ARGS
-fi</code></pre>
+fi
+```
 
 Many times, you will write a script that carries out one particular task. The first script in this chapter is an example. Later, it might occur to you to generalize the script to do other, similar tasks. Replacing the literal ("hard-wired") constants by variables is a step in that direction, as is replacing repetitive code blocks by functions.
 
@@ -235,7 +249,8 @@ Many times, you will write a script that carries out one particular task. The fi
 [3]The #! line in a shell script will be the first thing the command interpreter (sh or bash) sees. Since this line begins with a #, it will be correctly interpreted as a comment when the command interpreter finally executes the script. The line has already served its purpose - calling the command interpreter.
 
 If, in fact, the script includes an extra #! line, then bash will interpret it as a comment.
-<pre><code>#!/bin/bash
+```bash
+#!/bin/bash
 
 echo "Part 1 of script."
 a=1
@@ -244,11 +259,13 @@ a=1
 # This does *not* launch a new script.
 
 echo "Part 2 of script."
-echo $a  # Value of $a stays at 1.</code></pre>
+echo $a  # Value of $a stays at 1.
+```
 
 [4]This allows some cute tricks.
 
-<pre><code>#!/bin/rm
+```bash
+#!/bin/rm
 # Self-deleting script.
 
 # Nothing much seems to happen when you run this... except that the file disappears.
@@ -259,7 +276,8 @@ echo "This line will never print (betcha!)."
 
 exit $WHATEVER  # Doesn't matter. The script will not exit here.
                 # Try an echo $? after script termination.
-                # You'll get a 0, not a 85.</code></pre>
+                # You'll get a 0, not a 85.
+```
 
 Also, try starting a README file with a #!/bin/more, and making it executable. The result is a self-listing documentation file. (A here document using cat is possibly a better alternative -- see Example 19-3).
 
