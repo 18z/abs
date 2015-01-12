@@ -224,7 +224,7 @@ This tutorial encourages a modular approach to constructing a script.
 
 Make note of and collect "boilerplate" code snippets that might be useful in future scripts. 
 
-記下並蒐集“樣板”程式碼片段，這將有助於未來撰寫腳本。
+>`記下並蒐集“樣板”程式碼片段，這將有助於未來撰寫腳本。`
 
 Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
 
