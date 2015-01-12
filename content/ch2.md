@@ -222,7 +222,11 @@ This tutorial encourages a modular approach to constructing a script.
 
 >`本教程鼓勵使用模組化的方法去建立腳本內容。`
 
-Make note of and collect "boilerplate" code snippets that might be useful in future scripts. Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
+Make note of and collect "boilerplate" code snippets that might be useful in future scripts. 
+
+>`記下並蒐集“樣板”程式碼片段，這將有助於未來撰寫腳本。`
+
+Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
 
 ```bash
 E_WRONG_ARGS=85
