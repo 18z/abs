@@ -226,7 +226,11 @@ Make note of and collect "boilerplate" code snippets that might be useful in fut
 
 >`記下並蒐集“樣板”程式碼片段，這將有助於未來撰寫腳本。`
 
-Eventually you will build quite an extensive library of nifty routines. As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
+Eventually you will build quite an extensive library of nifty routines.
+
+>`最終，你將會建立基本例行程序的函式庫(library)。`
+
+As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
 
 ```bash
 E_WRONG_ARGS=85
