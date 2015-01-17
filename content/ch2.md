@@ -232,7 +232,7 @@ Eventually you will build quite an extensive library of nifty routines.
 
 As an example, the following script prolog tests whether the script has been invoked with the correct number of parameters.
 
->`如同以下範例，範例中腳本首先測試腳本是否有正確呼叫參數。`
+>`如同以下範例，範例中腳本首先測試是否以正確的參數個數呼叫腳本。`
 
 ```bash
 E_WRONG_ARGS=85
