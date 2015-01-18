@@ -21,6 +21,12 @@
 		Rslw		
 		Goldie Lin	
 
+翻譯流程：
+
+		1. fork https://github.com/deanboole/abs
+		2. 開始翻譯/編輯
+		3. 發 Pull Request 給 https://github.com/deanboole/abs
+
 編輯格式：
 
 		英文在上，中文在下
