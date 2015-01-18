@@ -10,7 +10,7 @@
 		deanboole	每天一句
 		colorbook	每週三句
 		klaywang03	
-		Rslw		
+		Rslw		每天一句
 		Goldie Lin	
 
 翻譯者 / 正在翻譯章節：
@@ -18,7 +18,7 @@
 		deanboole	ch4-1
 		colorbook	
 		klaywang03	
-		Rslw		
+		Rslw		ch3
 		Goldie Lin	
 
 翻譯流程：
