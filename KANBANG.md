@@ -11,7 +11,7 @@
 		colorbook	每週三句
 		klaywang03	
 		Rslw		每天一句
-		Goldie Lin	
+		Goldie Lin	每週三句
 
 翻譯者 / 正在翻譯章節：
 
@@ -19,7 +19,7 @@
 		colorbook	
 		klaywang03	
 		Rslw		ch3
-		Goldie Lin	
+		Goldie Lin	ch4-2..ch5
 
 翻譯流程：
 
