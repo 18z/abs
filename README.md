@@ -1,7 +1,7 @@
 ###Bash腳本進階學習 - 深入探索shell scripting之藝術
 
 #####作者：Mendel Cooper; Email：thegrendel.abs@gmail.com
-#####譯者：KunYu Chen, FangWei Wang, Chih-Che Chang, Bo-Jun Fang
+#####譯者：KunYu Chen, FangWei Wang, Chih-Che Chang, Bo-Jun Fang, Goldie Lin
 ---
 This tutorial assumes no previous knowledge of scripting or programming, yet progresses rapidly toward an intermediate/advanced level of instruction . . . all the while sneaking in little nuggets of UNIX® wisdom and lore.
 
@@ -39,6 +39,7 @@ This book is suitable for classroom use as a general introduction to programming
   * [3 特殊符號](https://github.com/deanboole/abs/blob/master/content/ch3.md)
   * [4 變數與參數簡介](https://github.com/deanboole/abs/blob/master/content/ch4.md)
   * [4.1 變數替換](https://github.com/deanboole/abs/blob/master/content/ch4-1.md)
+  * [4.2 變數值](https://github.com/deanboole/abs/blob/master/content/ch4-2.md)
   * 5 引號使用
   * 6 結束及結束之狀態
   * 7 測試
