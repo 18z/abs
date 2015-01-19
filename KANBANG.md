@@ -16,7 +16,7 @@
 翻譯者 / 正在翻譯章節：
 
 		deanboole	ch4-1
-		colorbook	
+		colorbook	ch2	
 		klaywang03	
 		Rslw		ch3
 		Goldie Lin	
