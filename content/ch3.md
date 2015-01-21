@@ -34,7 +34,7 @@ Comments may even be embedded within a pipe.
 <pre><code> initial=( `cat "$startfile" | sed -e '/#/d' | tr -d '\n' |\
  # Delete lines containing '#' comment character.
            sed -e 's/\./\. /g' -e 's/_/_ /g'` )
- # Excerpted from life.sh script
+ # Excerpted from life.sh scriptt
  </pre></code>
 
 A command may not follow a comment on the same line. There is no method of terminating the comment, in order for "live code" to begin on the same line. Use a new line for the next command.
@@ -45,14 +45,14 @@ Of course, a quoted or an escaped # in an echo statement does not begin a commen
 
 >`當然，在引用句或是echo中的『#』並不會開始一個全新的註解句。通常一個句子中的『#』代表某些參數結構式或是某些數據常量代表式。`
 
-<pre><dode>echo "The # here does not begin a comment."
+<pre><code>echo "The # here does not begin a comment."
 echo 'The # here does not begin a comment.'
 echo The \# here does not begin a comment.
 echo The # here begins a comment.
 
 echo ${PATH#*:}       # Parameter substitution, not a comment.
-echo $(( 2#101011 ))  # Base conversion, not a comment.
-#Thanks, S.C.</pre></code>
+echo $(( 2#101011 ))  # Base conversion, not a comment.</pre></code>
+<pre><code>#Thanks, S.C.</pre></code>
 The standard quoting and escape characters (" ' \) escape the #.
 
 Certain pattern matching operations also use the #.
