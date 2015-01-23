@@ -51,18 +51,22 @@ echo The \# here does not begin a comment.
 echo The # here begins a comment.
 
 echo ${PATH#*:}       # Parameter substitution, not a comment.
-echo $(( 2#101011 ))  # Base conversion, not a comment.</pre></code>
-<pre><code>#Thanks, S.C.</pre></code>
+echo $(( 2#101011 ))  # Base conversion, not a comment.
+\#Thanks, S.C.</pre></code>
 The standard quoting and escape characters (" ' \) escape the #.
+
+>`透過基礎的引用和跳脫符號來消除『#』本身的註解意義。`
 
 Certain pattern matching operations also use the #.
 
+>`特定的匹配操作也會使用『#』。`
+
 Command separator [semicolon]. Permits putting two or more commands on the same line.
 
-<pre><dode>echo hello; echo there
+<pre><code>echo hello; echo there
 
 if [ -x "$filename" ]; then    #  Note the space after the semicolon.
-#+                   ^^
+\#+                   ^^
   echo "File $filename exists."; cp $filename $filename.bak
 else   #                       ^^
   echo "File $filename not found."; touch $filename
@@ -73,10 +77,10 @@ Note that the ";" sometimes needs to be escaped.
 ;;
 Terminator in a case option [double semicolon].
 
-case "$variable" in
+<pre><code>case "$variable" in
   abc)  echo "\$variable = abc" ;;
   xyz)  echo "\$variable = xyz" ;;
-esac
+esac</pre></code>
 
 ;;&, ;&
 Terminators in a case option (version 4+ of Bash).
