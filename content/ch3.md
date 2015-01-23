@@ -51,8 +51,8 @@ echo The \# here does not begin a comment.
 echo The # here begins a comment.
 
 echo ${PATH#*:}       # Parameter substitution, not a comment.
-echo $(( 2#101011 ))  # Base conversion, not a comment.</pre></code>
-<pre><code>#Thanks, S.C.</pre></code>
+echo $(( 2#101011 ))  # Base conversion, not a comment.
+#Thanks, S.C.</pre></code>
 The standard quoting and escape characters (" ' \) escape the #.
 
 Certain pattern matching operations also use the #.
