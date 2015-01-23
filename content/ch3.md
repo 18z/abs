@@ -55,7 +55,11 @@ echo $(( 2#101011 ))  # Base conversion, not a comment.
 #Thanks, S.C.</pre></code>
 The standard quoting and escape characters (" ' \) escape the #.
 
+>`透過基礎的引用和跳脫符號來消除『#』本身的註解意義。`
+
 Certain pattern matching operations also use the #.
+
+>`特定的匹配操作也會使用『#』。`
 
 Command separator [semicolon]. Permits putting two or more commands on the same line.
 
