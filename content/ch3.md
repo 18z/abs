@@ -34,36 +34,39 @@ Comments may even be embedded within a pipe.
 <pre><code> initial=( `cat "$startfile" | sed -e '/#/d' | tr -d '\n' |\
  # Delete lines containing '#' comment character.
            sed -e 's/\./\. /g' -e 's/_/_ /g'` )
- # Excerpted from life.sh script</pre></code>
+ # Excerpted from life.sh scriptt
+ </pre></code>
 
 A command may not follow a comment on the same line. There is no method of terminating the comment, in order for "live code" to begin on the same line. Use a new line for the next command.
+
+>`命令句不會跟在註解符號後。沒有任何方法可以將一句話中的註解給取消掉，為了讓新的句子能夠執行，使用新的一行作為新的命令。`
 	
 Of course, a quoted or an escaped # in an echo statement does not begin a comment. Likewise, a # appears in certain parameter-substitution constructs and in numerical constant expressions.
-<pre><dode>echo "The # here does not begin a comment."
+
+>`當然，在引用句或是echo中的『#』並不會開始一個全新的註解句。通常一個句子中的『#』代表某些參數結構式或是某些數據常量代表式。`
+
+<pre><code>echo "The # here does not begin a comment."
 echo 'The # here does not begin a comment.'
 echo The \# here does not begin a comment.
-echo The # here begins a comment.</pre></code>
+echo The # here begins a comment.
 
 echo ${PATH#*:}       # Parameter substitution, not a comment.
-echo $(( 2#101011 ))  # Base conversion, not a comment.
-
-# Thanks, S.C.
+echo $(( 2#101011 ))  # Base conversion, not a comment.</pre></code>
+<pre><code>#Thanks, S.C.</pre></code>
 The standard quoting and escape characters (" ' \) escape the #.
 
 Certain pattern matching operations also use the #.
 
-;
 Command separator [semicolon]. Permits putting two or more commands on the same line.
 
-echo hello; echo there
-
+<pre><dode>echo hello; echo there
 
 if [ -x "$filename" ]; then    #  Note the space after the semicolon.
 #+                   ^^
   echo "File $filename exists."; cp $filename $filename.bak
 else   #                       ^^
   echo "File $filename not found."; touch $filename
-fi; echo "File test complete."
+fi; echo "File test complete."</pre></code>
 
 Note that the ";" sometimes needs to be escaped.
 
