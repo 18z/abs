@@ -251,7 +251,11 @@ Many times, you will write a script that carries out one particular task. The fi
 
 >`很多時候，你會為了實現特定任務而撰寫腳本，本章第一個腳本範例就是如此。`
 
-Later, it might occur to you to generalize the script to do other, similar tasks. Replacing the literal ("hard-wired") constants by variables is a step in that direction, as is replacing repetitive code blocks by functions.
+Later, it might occur to you to generalize the script to do other, similar tasks. 
+
+>`往後，你可能會將寫好的腳本套用到其他相似任務中。`
+
+Replacing the literal ("hard-wired") constants by variables is a step in that direction, as is replacing repetitive code blocks by functions.
 
 **Notes**
 
