@@ -257,6 +257,9 @@ Later, it might occur to you to generalize the script to do other, similar tasks
 
 Replacing the literal ("hard-wired") constants by variables is a step in that direction, as is replacing repetitive code blocks by functions.
 
+>`利用變數取代文字常數(例如："hard-wired")，這方法就朝著利用函式取代重複出現的程式區塊這方向邁進一步。`
+
+
 **Notes**
 
 
