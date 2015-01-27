@@ -63,6 +63,8 @@ Certain pattern matching operations also use the #.
 
 Command separator [semicolon]. Permits putting two or more commands on the same line.
 
+>`命令分隔符號『;』。透過此符號能夠允許在同一列文字上放上兩個或是更多的命令。`
+
 <pre><code>echo hello; echo there
 
 if [ -x "$filename" ]; then    #  Note the space after the semicolon.
@@ -73,6 +75,8 @@ else   #                       ^^
 fi; echo "File test complete."</pre></code>
 
 Note that the ";" sometimes needs to be escaped.
+
+>`注意『;』符號有時後方需要接上空白。`
 
 ;;
 Terminator in a case option [double semicolon].
