@@ -80,6 +80,7 @@ Note that the ";" sometimes needs to be escaped.
 
 ;;
 Terminator in a case option [double semicolon].
+>`雙重『;』也可用做於終止符號。`
 
 <pre><code>case "$variable" in
   abc)  echo "\$variable = abc" ;;
@@ -95,6 +96,7 @@ Terminators in a case option (version 4+ of Bash).
 
 .
 "dot", as a component of a filename. When working with filenames, a leading dot is the prefix of a "hidden" file, a file that an ls will not normally show.
+<pre><code>
 bash$ touch .hidden-file
 bash$ ls -l	      
 total 10
@@ -111,10 +113,11 @@ total 14
  -rw-r--r--    1 bozo  bozo      4602 May 25 13:58 data1.addressbook.bak
  -rw-r--r--    1 bozo  bozo       877 Dec 17  2000 employment.addressbook
  -rw-rw-r--    1 bozo  bozo         0 Aug 29 20:54 .hidden-file
-	        
+</pre></code>	        
 
 When considering directory names, a single dot represents the current working directory, and two dots denote the parent directory.
 
+<pre><code>
 bash$ pwd
 /home/bozo/projects
 
@@ -125,5 +128,6 @@ bash$ pwd
 bash$ cd ..
 bash$ pwd
 /home/bozo/
-	        
+</pre></code>
+
 The dot often appears as the destination (directory) of a file movement command, in this context meaning current directory.
