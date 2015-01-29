@@ -265,6 +265,8 @@ Replacing the literal ("hard-wired") constants by variables is a step in that di
 
 [1]More commonly seen in the literature as she-bang or sh-bang. This derives from the concatenation of the tokens sharp (#) and bang (!).
 
+>`[1]一般文件上所看到的名詞 she-bang 或 sh-bang，它是源自於結合兩個符號 sharp (#) 和 bang (!)。`
+
 [2]Some flavors of UNIX (those based on 4.2 BSD) allegedly take a four-byte magic number, requiring a blank after the ! -- #! /bin/sh. According to Sven Mascheck this is probably a myth.
 
 [3]The #! line in a shell script will be the first thing the command interpreter (sh or bash) sees. Since this line begins with a #, it will be correctly interpreted as a comment when the command interpreter finally executes the script. The line has already served its purpose - calling the command interpreter.
