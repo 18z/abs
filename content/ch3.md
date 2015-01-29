@@ -87,9 +87,8 @@ Terminator in a case option [double semicolon].
   xyz)  echo "\$variable = xyz" ;;
 esac</pre></code>
 
-;;&, ;&
-Terminators in a case option (version 4+ of Bash).
-
+;;&, ;& Terminators in a case option (version 4+ of Bash).
+>`『;;』與『, ;』在某些版本中也可用做終止符號（4+ Bash版本）。`
 .
 
 "dot" command [period]. Equivalent to source (see Example 15-22). This is a bash builtin.
