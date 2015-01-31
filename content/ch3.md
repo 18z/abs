@@ -115,6 +115,7 @@ total 14
 </pre></code>	        
 
 When considering directory names, a single dot represents the current working directory, and two dots denote the parent directory.
+> 對於資料夾名稱, 一個句點符號代表目前資料夾, 兩個句點符號則代表上一個資料夾.
 
 <pre><code>
 bash$ pwd
@@ -130,3 +131,4 @@ bash$ pwd
 </pre></code>
 
 The dot often appears as the destination (directory) of a file movement command, in this context meaning current directory.
+> 句點符號經常是指移動檔案指令的目的地(資料夾), 在這個例子中指的是目前資料夾.
