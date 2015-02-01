@@ -269,6 +269,8 @@ Replacing the literal ("hard-wired") constants by variables is a step in that di
 
 [2]Some flavors of UNIX (those based on 4.2 BSD) allegedly take a four-byte magic number, requiring a blank after the ! -- #! /bin/sh. According to Sven Mascheck this is probably a myth.
 
+>`[2]某些 UNIX (4.2 BSD 的基礎上) 據說喜愛使用一種四位元組的魔術數字，它在驚嘆號後面加上空白符號－#! /bin/sh，根據 Sven Mascheck 認為這說法可能是虛構的。`
+
 [3]The #! line in a shell script will be the first thing the command interpreter (sh or bash) sees. Since this line begins with a #, it will be correctly interpreted as a comment when the command interpreter finally executes the script. The line has already served its purpose - calling the command interpreter.
 
 If, in fact, the script includes an extra #! line, then bash will interpret it as a comment.
