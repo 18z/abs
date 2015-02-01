@@ -89,12 +89,13 @@ esac</pre></code>
 
 ;;&, ;& Terminators in a case option (version 4+ of Bash).
 >`『;;』與『, ;』在某些版本中也可用做終止符號（4+ Bash版本）。`
-.
 
 "dot" command [period]. Equivalent to source (see Example 15-22). This is a bash builtin.
+>`『.』逗點指令，相當於源（見範例15-22），是一個bash的內建命令。`
 
-.
-"dot", as a component of a filename. When working with filenames, a leading dot is the prefix of a "hidden" file, a file that an ls will not normally show.
+."dot", as a component of a filename. When working with filenames, a leading dot is the prefix of a "hidden" file, a file that an ls will not normally show.
+>`『.』，當逗點作為檔案名稱中的一個元件時，在檔案名稱前的逗點是作為一個『隱藏』檔案的綴飾詞，一個平常使用指令『ls』不會直接顯示的。`
+
 <pre><code>
 bash$ touch .hidden-file
 bash$ ls -l	      
