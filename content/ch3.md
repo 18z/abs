@@ -117,7 +117,7 @@ total 14
 
 When considering directory names, a single dot represents the current working directory, and two dots denote the parent directory.
 
->`當`
+>`當確認資料夾名稱時，單獨的一個點『.』代表當前使用者所在的位置，兩個點『..』但表上一層的資料夾位置。`
 
 <pre><code>
 bash$ pwd
@@ -133,11 +133,16 @@ bash$ pwd
 </pre></code>
 
 The dot often appears as the destination (directory) of a file movement command, in this context meaning current directory.
+
+>`『.』經常代表著檔案移動的目的地（資料夾），但在這段文字中代表當前的資料夾。`
+
 <pre><code>
 bash$ cp /home/bozo/current_work/junk/* .
 </pre></code>
 
 Copy all the "junk" files to $PWD.
+
+>`複製所有的『垃圾』檔案到$PWD位置。`
 
 .
 "dot" character match. When matching characters, as part of a regular expression, a "dot" matches a single character.
