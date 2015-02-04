@@ -117,6 +117,8 @@ total 14
 
 When considering directory names, a single dot represents the current working directory, and two dots denote the parent directory.
 
+>`當`
+
 <pre><code>
 bash$ pwd
 /home/bozo/projects
