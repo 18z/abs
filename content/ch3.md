@@ -131,3 +131,69 @@ bash$ pwd
 </pre></code>
 
 The dot often appears as the destination (directory) of a file movement command, in this context meaning current directory.
+<pre><code>
+bash$ cp /home/bozo/current_work/junk/* .
+</pre></code>
+
+Copy all the "junk" files to $PWD.
+
+.
+"dot" character match. When matching characters, as part of a regular expression, a "dot" matches a single character.
+
+"
+partial quoting [double quote]. "STRING" preserves (from interpretation) most of the special characters within STRING. See Chapter 5.
+
+'
+full quoting [single quote]. 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING". See Chapter 5.
+
+,
+comma operator. The comma operator [1] links together a series of arithmetic operations. All are evaluated, but only the last one is returned.
+<pre><code>
+let "t2 = ((a = 9, 15 / 3))"
+ # Set "a = 9" and "t2 = 15 / 3"
+</pre></code>
+
+The comma operator can also concatenate strings.
+<pre><code>
+for file in /{,usr/}bin/*calc
+ #             ^    Find all executable files ending in "calc"
+ #+                 in /bin and /usr/bin directories.
+do
+        if [ -x "$file" ]
+        then
+          echo $file
+        fi
+done
+
+ # /bin/ipcalc
+ # /usr/bin/kcalc
+ # /usr/bin/oidcalc
+ # /usr/bin/oocalc
+
+
+ # Thank you, Rory Winston, for pointing this out.
+</pre></code>
+,, ,
+Lowercase conversion in parameter substitution (added in version 4 of Bash).
+
+\
+escape [backslash]. A quoting mechanism for single characters.
+
+\X escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to quote " and ', so they are expressed literally.
+
+See Chapter 5 for an in-depth explanation of escaped characters.
+
+/
+Filename path separator [forward slash]. Separates the components of a filename (as in /home/bozo/projects/Makefile).
+
+This is also the division arithmetic operator.
+
+`
+command substitution. The `command` construct makes available the output of command for assignment to a variable. This is also known as backquotes or backticks.
+
+:
+null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It may be considered a synonym for the shell builtin true. The ":" command is itself a Bash builtin, and its exit status is true (0).
+<pre><code>
+:
+echo $?   # 0
+</pre></code>
