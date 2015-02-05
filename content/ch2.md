@@ -273,7 +273,7 @@ Replacing the literal ("hard-wired") constants by variables is a step in that di
 
 [3]The #! line in a shell script will be the first thing the command interpreter (sh or bash) sees. Since this line begins with a #, it will be correctly interpreted as a comment when the command interpreter finally executes the script. The line has already served its purpose - calling the command interpreter.
 
->`[3]指令直譯器(sh 或 bash)會在腳本中先看到第一行的 #! 符號。由於該行是以 # 符號做為開頭，所以在執行腳本時會被指令直譯器解讀為註解。該行已經完成它的目的－呼叫指令直譯器。`
+>`[3]指令直譯器(sh 或 bash)會在腳本中先看到第一行的 #! 符號。由於該行是以 # 符號做為開頭，所以在執行腳本時會被指令直譯器解讀為註解。該行已經完成它的目的－呼叫指令直譯器。 `
 
 If, in fact, the script includes an extra #! line, then bash will interpret it as a comment.
 ```bash
