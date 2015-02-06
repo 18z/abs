@@ -152,6 +152,8 @@ Copy all the "junk" files to $PWD.
 "
 partial quoting [double quote]. "STRING" preserves (from interpretation) most of the special characters within STRING. See Chapter 5.
 
+>`『"』雙引號。『STRING』從字元之中找到大部分特殊字元符合『STRING』的字元。請見單元5。`
+
 '
 full quoting [single quote]. 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING". See Chapter 5.
 
