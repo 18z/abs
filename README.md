@@ -27,20 +27,20 @@ This book is suitable for classroom use as a general introduction to programming
 
 ### 目錄
 
-* [Part 1. 引言](https://github.com/deanboole/abs/blob/master/content/part1-introduction.md)
+* [Part 1. 引言](content/part1-introduction.md)
 
-  * [1 Shell 程式設計！](https://github.com/deanboole/abs/blob/master/content/ch1.md)
-  * [2 從 Sha-bang (#!) 入門](https://github.com/deanboole/abs/blob/master/content/ch2.md)
-  * [2.1 執行腳本](https://github.com/deanboole/abs/blob/master/content/ch2-1.md)
-  * [2.2 初步練習](https://github.com/deanboole/abs/blob/master/content/ch2-2.md)
+  * [1 Shell 程式設計！](content/ch1.md)
+  * [2 從 Sha-bang (#!) 入門](content/ch2.md)
+  * [2.1 執行腳本](content/ch2-1.md)
+  * [2.2 初步練習](content/ch2-2.md)
 
 * Part 2. 基礎篇
 
-  * [3 特殊符號](https://github.com/deanboole/abs/blob/master/content/ch3.md)
-  * [4 變數與參數簡介](https://github.com/deanboole/abs/blob/master/content/ch4.md)
-  * [4.1 變數替換](https://github.com/deanboole/abs/blob/master/content/ch4-1.md)
-  * [4.2 變數值](https://github.com/deanboole/abs/blob/master/content/ch4-2.md)
-  * [4.3 Bash 變數是沒有特定類型的] (https://github.com/deanboole/abs/blob/master/content/ch4-3.md)
+  * [3 特殊符號](content/ch3.md)
+  * [4 變數與參數簡介](content/ch4.md)
+  * [4.1 變數替換](content/ch4-1.md)
+  * [4.2 變數值](content/ch4-2.md)
+  * [4.3 Bash 變數是沒有特定類型的] (content/ch4-3.md)
   * 5 引號使用
   * 6 結束及結束之狀態
   * 7 測試
