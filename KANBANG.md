@@ -41,9 +41,9 @@
 		並於開頭三個反引號後面明確標示使用 bash 語法標亮"。
 
 		例如：
-		\`\`\`bash
+		```bash
 		echo “scripts 排版範例”
-		\`\`\`
+		```
 
 commit message：格式
 
