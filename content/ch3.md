@@ -147,8 +147,12 @@ Copy all the "junk" files to $PWD.
 .
 "dot" character match. When matching characters, as part of a regular expression, a "dot" matches a single character.
 
+>`『.』點，字符配對。當字符配對符合時，點作為一般表達式的一部分，一個『.』代表一個單一字元`
+
 "
 partial quoting [double quote]. "STRING" preserves (from interpretation) most of the special characters within STRING. See Chapter 5.
+
+>`『"』雙引號。『STRING』從字元之中找到大部分特殊字元符合『STRING』的字元。請見單元5。`
 
 '
 full quoting [single quote]. 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING". See Chapter 5.
