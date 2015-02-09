@@ -276,6 +276,9 @@ Replacing the literal ("hard-wired") constants by variables is a step in that di
 >`[3]指令直譯器(sh 或 bash)會在腳本中先看到第一行的 #! 符號。由於該行是以 # 符號做為開頭，所以在執行腳本時會被指令直譯器解讀為註解。該行已經完成它的目的－呼叫指令直譯器。 `
 
 If, in fact, the script includes an extra #! line, then bash will interpret it as a comment.
+
+>`假如腳本包含額外 #! 符號開頭的內容，則 bash 將會解讀該行為註解。`
+
 ```bash
 #!/bin/bash
 
