@@ -98,7 +98,8 @@ Terminator in a case option [double semicolon].
 	esac
 ```
 
-;;&, ;& Terminators in a case option (version 4+ of Bash).
+;;&, ;& 
+Terminators in a case option (version 4+ of Bash).
 >`『;;』與『, ;』在某些版本中也可用做終止符號（4+ Bash版本）。`
 
 "dot" command [period]. Equivalent to source (see Example 15-22). This is a bash builtin.
@@ -202,7 +203,7 @@ Lowercase conversion in parameter substitution (added in version 4 of Bash).
 \
 escape [backslash]. A quoting mechanism for single characters.
 
-\X escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to quote " and ', so they are expressed literally.
+\x escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to quote " and ', so they are expressed literally.
 
 See Chapter 5 for an in-depth explanation of escaped characters.
 
@@ -216,7 +217,7 @@ command substitution. The `command` construct makes available the output of comm
 
 :
 null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It may be considered a synonym for the shell builtin true. The ":" command is itself a Bash builtin, and its exit status is true (0).
-<pre><code>
-:
-echo $?   # 0
-</pre></code>
+```bash
+	:
+	echo $?   # 0
+```
