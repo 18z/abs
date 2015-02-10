@@ -12,30 +12,35 @@ Comments. Lines beginning with a (with the exception of ) are comments and will 
 
 >`註解。句子開頭加上符號（如例子所示的『#』），代表這句子是註解並不會被執行。`
 
-<pre><code># This line is a comment.</pre></code>
+	# This line is a comment.</pre></code>
 
 Comments may also occur following the end of a command.
 
 >`註解也會出現在命令句的後方。`
 
-<pre><code> echo "A comment will follow." # Comment here.
- #                            ^ Note whitespace before #</pre></code>
+```bash
+	echo "A comment will follow." # Comment here.
+	#                            ^ Note whitespace before #
+```
 
 Comments may also follow whitespace at the beginning of a line.
 
 >`註解的符號後方也可以先接上空白再開始整個句子。`
 
- <pre><code>    # A tab precedes this comment.</pre></code>
+```bash
+	# A tab precedes this comment.
+```	
 
 Comments may even be embedded within a pipe.
 
 >`註解甚至也可以在斜線中插入。`
 
-<pre><code> initial=( `cat "$startfile" | sed -e '/#/d' | tr -d '\n' |\
- # Delete lines containing '#' comment character.
-           sed -e 's/\./\. /g' -e 's/_/_ /g'` )
- # Excerpted from life.sh scriptt
- </pre></code>
+```bash
+	initial=( `cat "$startfile" | sed -e '/#/d' | tr -d '\n' |\
+ 	# Delete lines containing '#' comment character.
+        	   sed -e 's/\./\. /g' -e 's/_/_ /g'` )
+ 	# Excerpted from life.sh scriptt
+```
 
 A command may not follow a comment on the same line. There is no method of terminating the comment, in order for "live code" to begin on the same line. Use a new line for the next command.
 
@@ -45,15 +50,17 @@ Of course, a quoted or an escaped # in an echo statement does not begin a commen
 
 >`當然，在引用句或是echo中的『#』並不會開始一個全新的註解句。通常一個句子中的『#』代表某些參數結構式或是某些數據常量代表式。`
 
-<pre><code>echo "The # here does not begin a comment."
-echo 'The # here does not begin a comment.'
-echo The \# here does not begin a comment.
-echo The # here begins a comment.
+```bash
+	echo "The # here does not begin a comment."
+	echo 'The # here does not begin a comment.'
+	echo The \# here does not begin a comment.
+	echo The # here begins a comment.
 
-echo ${PATH#*:}       # Parameter substitution, not a comment.
-echo $(( 2#101011 ))  # Base conversion, not a comment.
-\#Thanks, S.C.</pre></code>
-The standard quoting and escape characters (" ' \) escape the #.
+	echo ${PATH#*:}       # Parameter substitution, not a comment.
+	echo $(( 2#101011 ))  # Base conversion, not a comment.
+	#Thanks, S.C.</pre></code>
+	The standard quoting and escape characters (" ' \) escape the #.
+```
 
 >`透過基礎的引用和跳脫符號來消除『#』本身的註解意義。`
 
@@ -65,16 +72,18 @@ Command separator [semicolon]. Permits putting two or more commands on the same 
 
 >`命令分隔符號『;』。透過此符號能夠允許在同一列文字上放上兩個或是更多的命令。`
 
-<pre><code>echo hello; echo there
+```bash
+	echo hello; echo there
 
-if [ -x "$filename" ]; then    #  Note the space after the semicolon.
-\#+                   ^^
-  echo "File $filename exists."; cp $filename $filename.bak
-else   #                       ^^
-  echo "File $filename not found."; touch $filename
-fi; echo "File test complete."</pre></code>
+	if [ -x "$filename" ]; then    #  Note the space after the semicolon.
+	\#+                   ^^
+  		echo "File $filename exists."; cp $filename $filename.bak
+	else   #                       ^^
+		echo "File $filename not found."; touch $filename
+	fi; echo "File test complete."</pre></code>
 
-Note that the ";" sometimes needs to be escaped.
+	Note that the ";" sometimes needs to be escaped.
+```	
 
 >`注意『;』符號有時後方需要接上空白。`
 
@@ -82,12 +91,15 @@ Note that the ";" sometimes needs to be escaped.
 Terminator in a case option [double semicolon].
 >`雙重『;』也可用做於終止符號。`
 
-<pre><code>case "$variable" in
-  abc)  echo "\$variable = abc" ;;
-  xyz)  echo "\$variable = xyz" ;;
-esac</pre></code>
+```bash
+	case "$variable" in
+		abc)  echo "\$variable = abc" ;;
+		xyz)  echo "\$variable = xyz" ;;
+	esac
+```
 
-;;&, ;& Terminators in a case option (version 4+ of Bash).
+;;&, ;& 
+Terminators in a case option (version 4+ of Bash).
 >`『;;』與『, ;』在某些版本中也可用做終止符號（4+ Bash版本）。`
 
 "dot" command [period]. Equivalent to source (see Example 15-22). This is a bash builtin.
@@ -96,49 +108,48 @@ esac</pre></code>
 ."dot", as a component of a filename. When working with filenames, a leading dot is the prefix of a "hidden" file, a file that an ls will not normally show.
 >`『.』，當逗點作為檔案名稱中的一個元件時，在檔案名稱前的逗點是作為一個『隱藏』檔案的綴飾詞，一個平常使用指令『ls』不會直接顯示的。`
 
-<pre><code>
-bash$ touch .hidden-file
-bash$ ls -l	      
-total 10
- -rw-r--r--    1 bozo      4034 Jul 18 22:04 data1.addressbook
- -rw-r--r--    1 bozo      4602 May 25 13:58 data1.addressbook.bak
- -rw-r--r--    1 bozo       877 Dec 17  2000 employment.addressbook
+```bash
+	bash$ touch .hidden-file
+	bash$ ls -l	      
+	total 10
+ 		-rw-r--r--    1 bozo      4034 Jul 18 22:04 data1.addressbook
+ 		-rw-r--r--    1 bozo      4602 May 25 13:58 data1.addressbook.bak
+ 		-rw-r--r--    1 bozo       877 Dec 17  2000 employment.addressbook
 
-
-bash$ ls -al	      
-total 14
- drwxrwxr-x    2 bozo  bozo      1024 Aug 29 20:54 ./
- drwx------   52 bozo  bozo      3072 Aug 29 20:51 ../
- -rw-r--r--    1 bozo  bozo      4034 Jul 18 22:04 data1.addressbook
- -rw-r--r--    1 bozo  bozo      4602 May 25 13:58 data1.addressbook.bak
- -rw-r--r--    1 bozo  bozo       877 Dec 17  2000 employment.addressbook
- -rw-rw-r--    1 bozo  bozo         0 Aug 29 20:54 .hidden-file
-</pre></code>	        
+	bash$ ls -al	      
+	total 14
+ 		drwxrwxr-x    2 bozo  bozo      1024 Aug 29 20:54 ./
+ 		drwx------   52 bozo  bozo      3072 Aug 29 20:51 ../
+ 		-rw-r--r--    1 bozo  bozo      4034 Jul 18 22:04 data1.addressbook
+ 		-rw-r--r--    1 bozo  bozo      4602 May 25 13:58 data1.addressbook.bak
+ 		-rw-r--r--    1 bozo  bozo       877 Dec 17  2000 employment.addressbook
+ 		-rw-rw-r--    1 bozo  bozo         0 Aug 29 20:54 .hidden-file
+```        
 
 When considering directory names, a single dot represents the current working directory, and two dots denote the parent directory.
 
 >`當確認資料夾名稱時，單獨的一個點『.』代表當前使用者所在的位置，兩個點『..』但表上一層的資料夾位置。`
 
-<pre><code>
-bash$ pwd
-/home/bozo/projects
+```bash
+	bash$ pwd
+	/home/bozo/projects
 
-bash$ cd .
-bash$ pwd
-/home/bozo/projects
+	bash$ cd .
+	bash$ pwd
+	/home/bozo/projects
 
-bash$ cd ..
-bash$ pwd
-/home/bozo/
-</pre></code>
+	bash$ cd ..
+	bash$ pwd
+	/home/bozo/
+```
 
 The dot often appears as the destination (directory) of a file movement command, in this context meaning current directory.
 
 >`『.』經常代表著檔案移動的目的地（資料夾），但在這段文字中代表當前的資料夾。`
 
-<pre><code>
-bash$ cp /home/bozo/current_work/junk/* .
-</pre></code>
+```bash
+	bash$ cp /home/bozo/current_work/junk/* .
+```
 
 Copy all the "junk" files to $PWD.
 
@@ -152,45 +163,49 @@ Copy all the "junk" files to $PWD.
 "
 partial quoting [double quote]. "STRING" preserves (from interpretation) most of the special characters within STRING. See Chapter 5.
 
->`『"』雙引號。『STRING』從字元之中找到大部分特殊字元符合『STRING』的字元。請見單元5。`
+>`『"』雙引號。"STRING"從字元或是文句之中找到大部分特殊字元符合 STRING 的字元。請見單元5。`
 
 '
 full quoting [single quote]. 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING". See Chapter 5.
 
+>`『'』單引號，全匹配。'STRING'從字元或是文句之中找到所有與STRING全匹配的特殊字元。單引號的匹對效果強過雙引號。請見單元5。`
+
 ,
 comma operator. The comma operator [1] links together a series of arithmetic operations. All are evaluated, but only the last one is returned.
-<pre><code>
-let "t2 = ((a = 9, 15 / 3))"
- # Set "a = 9" and "t2 = 15 / 3"
-</pre></code>
+
+```bash
+	let "t2 = ((a = 9, 15 / 3))"
+	# Set "a = 9" and "t2 = 15 / 3"
+```
 
 The comma operator can also concatenate strings.
-<pre><code>
-for file in /{,usr/}bin/*calc
- #             ^    Find all executable files ending in "calc"
- #+                 in /bin and /usr/bin directories.
-do
-        if [ -x "$file" ]
-        then
-          echo $file
-        fi
-done
 
- # /bin/ipcalc
- # /usr/bin/kcalc
- # /usr/bin/oidcalc
- # /usr/bin/oocalc
+```bash
+	for file in /{,usr/}bin/*calc
+	#             ^    Find all executable files ending in "calc"
+	#+                 in /bin and /usr/bin directories.
+	do
+        	if [ -x "$file" ]
+        	then
+        		echo $file
+        	fi
+	done
+
+ 	# /bin/ipcalc
+ 	# /usr/bin/kcalc
+ 	# /usr/bin/oidcalc
+ 	# /usr/bin/oocalc
 
 
- # Thank you, Rory Winston, for pointing this out.
-</pre></code>
+	# Thank you, Rory Winston, for pointing this out.
+```
 ,, ,
 Lowercase conversion in parameter substitution (added in version 4 of Bash).
 
 \
 escape [backslash]. A quoting mechanism for single characters.
 
-\X escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to quote " and ', so they are expressed literally.
+\x escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to quote " and ', so they are expressed literally.
 
 See Chapter 5 for an in-depth explanation of escaped characters.
 
@@ -204,7 +219,7 @@ command substitution. The `command` construct makes available the output of comm
 
 :
 null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It may be considered a synonym for the shell builtin true. The ":" command is itself a Bash builtin, and its exit status is true (0).
-<pre><code>
-:
-echo $?   # 0
-</pre></code>
+```bash
+	:
+	echo $?   # 0
+```
