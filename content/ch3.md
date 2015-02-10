@@ -18,7 +18,7 @@ Comments may also occur following the end of a command.
 
 >`註解也會出現在命令句的後方。`
 
-```
+```bash
 	echo "A comment will follow." # Comment here.
 	#                            ^ Note whitespace before #
 ```
@@ -27,7 +27,7 @@ Comments may also follow whitespace at the beginning of a line.
 
 >`註解的符號後方也可以先接上空白再開始整個句子。`
 
-```
+```bash
 	# A tab precedes this comment.
 ```	
 
@@ -35,7 +35,7 @@ Comments may even be embedded within a pipe.
 
 >`註解甚至也可以在斜線中插入。`
 
-```
+```bash
 	initial=( `cat "$startfile" | sed -e '/#/d' | tr -d '\n' |\
  	# Delete lines containing '#' comment character.
         	   sed -e 's/\./\. /g' -e 's/_/_ /g'` )
@@ -50,7 +50,7 @@ Of course, a quoted or an escaped # in an echo statement does not begin a commen
 
 >`當然，在引用句或是echo中的『#』並不會開始一個全新的註解句。通常一個句子中的『#』代表某些參數結構式或是某些數據常量代表式。`
 
-```
+```bash
 	echo "The # here does not begin a comment."
 	echo 'The # here does not begin a comment.'
 	echo The \# here does not begin a comment.
@@ -72,7 +72,7 @@ Command separator [semicolon]. Permits putting two or more commands on the same 
 
 >`命令分隔符號『;』。透過此符號能夠允許在同一列文字上放上兩個或是更多的命令。`
 
-```
+```bash
 	echo hello; echo there
 
 	if [ -x "$filename" ]; then    #  Note the space after the semicolon.
@@ -91,7 +91,7 @@ Command separator [semicolon]. Permits putting two or more commands on the same 
 Terminator in a case option [double semicolon].
 >`雙重『;』也可用做於終止符號。`
 
-```
+```bash
 	case "$variable" in
 		abc)  echo "\$variable = abc" ;;
 		xyz)  echo "\$variable = xyz" ;;
@@ -163,10 +163,12 @@ Copy all the "junk" files to $PWD.
 "
 partial quoting [double quote]. "STRING" preserves (from interpretation) most of the special characters within STRING. See Chapter 5.
 
->`『"』雙引號。『STRING』從字元之中找到大部分特殊字元符合『STRING』的字元。請見單元5。`
+>`『"』雙引號。"STRING"從字元或是文句之中找到大部分特殊字元符合 STRING 的字元。請見單元5。`
 
 '
 full quoting [single quote]. 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING". See Chapter 5.
+
+>`『'』單引號，全匹配。'STRING'從字元或是文句之中找到所有與STRING全匹配的特殊字元。單引號的匹對效果強過雙引號。請見單元5。`
 
 ,
 comma operator. The comma operator [1] links together a series of arithmetic operations. All are evaluated, but only the last one is returned.
