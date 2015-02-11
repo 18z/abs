@@ -294,6 +294,8 @@ echo $a  # Value of $a stays at 1.
 
 [4]This allows some cute tricks.
 
+>`以下演示一些可愛的技巧`
+
 ```bash
 #!/bin/rm
 # Self-deleting script.
@@ -310,6 +312,8 @@ exit $WHATEVER  # Doesn't matter. The script will not exit here.
 ```
 
 Also, try starting a README file with a #!/bin/more, and making it executable. The result is a self-listing documentation file. (A here document using cat is possibly a better alternative -- see Example 19-3).
+
+>`另外，試著使用包含 #!/bin/more 的 README 檔案，並且執行它。結果會顯示自行列出文件中所提及的檔案（使用 cat 指令可能是更好的替代方法－請見範例 19-3）。`
 
 [5]Portable Operating System Interface, an attempt to standardize UNIX-like OSes. The POSIX specifications are listed on the Open Group site.
 
