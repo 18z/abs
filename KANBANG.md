@@ -15,7 +15,7 @@
 
 翻譯者 / 正在翻譯章節：
 
-		deanboole	ch4-1
+		deanboole	ch6
 		colorbook	ch2	
 		klaywang03	
 		Rslw		ch3
