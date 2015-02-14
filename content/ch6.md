@@ -1,8 +1,13 @@
 Chapter 6. Exit and Exit Status
 
 第六章：結束及結束之狀態
+---
 
-The exit command terminates a script, just as in a C program. It can also return a value, which is available to the script's parent process.
+The exit command terminates a script, just as in a C program. 
+
+>`exit 指令可以讓腳本停止執行，觀念跟 C 語言接近。`
+
+It can also return a value, which is available to the script's parent process.
 
 Every command returns an exit status (sometimes referred to as a return status or exit code). A successful command returns a 0, while an unsuccessful one returns a non-zero value that usually can be interpreted as an error code. Well-behaved UNIX commands, programs, and utilities return a 0 exit code upon successful completion, though there are some exceptions.
 
