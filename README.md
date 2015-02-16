@@ -42,7 +42,7 @@ This book is suitable for classroom use as a general introduction to programming
   * [4.2 變數值](content/ch4-2.md)
   * [4.3 Bash 變數是沒有特定類型的] (content/ch4-3.md)
   * 5 引號使用
-  * 6 [結束及結束之狀態](content/ch6.md)
+  * [6 退出及退出狀態](content/ch6.md)
   * 7 測試
   * 8 運算元、運算子及其他相關主題
 
