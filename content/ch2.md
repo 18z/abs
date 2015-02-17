@@ -294,7 +294,7 @@ echo $a  # Value of $a stays at 1.
 
 [4]This allows some cute tricks.
 
->`以下演示一些可愛的技巧`
+>`[4]以下演示一些可愛的技巧`
 
 ```bash
 #!/bin/rm
