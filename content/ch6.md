@@ -23,4 +23,8 @@ Well-behaved UNIX commands, programs, and utilities return a 0 exit code upon su
 
 >`一般而言，UNIX 指令、programs 或 utilities 在成功執行完畢後，會回傳 0 值。然而，在幾個情況下有特例。`
 
-Likewise, functions within a script and the script itself return an exit status. The last command executed in the function or script determines the exit status. Within a script, an exit nnn command may be used to deliver an nnn exit status to the shell (nnn must be an integer in the 0 - 255 range).
+Likewise, functions within a script and the script itself return an exit status. 
+
+>`同樣的，腳本內的函式及腳本本身執行結束後都會有一個回傳值。`
+
+The last command executed in the function or script determines the exit status. Within a script, an exit nnn command may be used to deliver an nnn exit status to the shell (nnn must be an integer in the 0 - 255 range).
