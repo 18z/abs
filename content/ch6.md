@@ -32,3 +32,5 @@ The last command executed in the function or script determines the exit status.
 >`函式或腳本內的最後一個指令將決定回傳值是多少。`
 
 Within a script, an exit nnn command may be used to deliver an nnn exit status to the shell (nnn must be an integer in the 0 - 255 range).
+
+>`在腳本中，指令 "exit nnn" (nnn 必須是介於0~255間的數字) 可被用來向 shell 傳遞 exit status。`
