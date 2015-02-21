@@ -34,3 +34,48 @@ The last command executed in the function or script determines the exit status.
 Within a script, an exit nnn command may be used to deliver an nnn exit status to the shell (nnn must be an integer in the 0 - 255 range).
 
 >`在腳本中，指令 "exit nnn" (nnn 必須是介於0~255間的數字) 可被用來向 shell 傳遞 exit status。`
+
+When a script ends with an exit that has no parameter, the exit status of the script is the exit status of the last command executed in the script (previous to the exit).
+
+```bash
+#!/bin/bash
+
+COMMAND_1
+
+. . .
+
+COMMAND_LAST
+
+# Will exit with status of last command.
+
+exit
+```
+
+The equivalent of a bare exit is exit $? or even just omitting the exit.
+
+```bash
+#!/bin/bash
+
+COMMAND_1
+
+. . .
+
+COMMAND_LAST
+
+# Will exit with status of last command.
+
+exit $?
+```
+```bash
+#!/bin/bash
+
+COMMAND1
+
+. . . 
+
+COMMAND_LAST
+
+# Will exit with status of last command.
+```
+
+
