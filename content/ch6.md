@@ -37,6 +37,8 @@ Within a script, an exit nnn command may be used to deliver an nnn exit status t
 
 When a script ends with an exit that has no parameter, the exit status of the script is the exit status of the last command executed in the script (previous to the exit).
 
+>`若一腳本 exit 時，沒有指定 exit status，則 exit status 就會是腳本內的最後一個被執行的指令。`
+
 ```bash
 #!/bin/bash
 
