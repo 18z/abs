@@ -49,6 +49,7 @@ COMMAND_1
 COMMAND_LAST
 
 # Will exit with status of last command.
+# 回傳最後一個被執行指令的狀態。
 
 exit
 ```
