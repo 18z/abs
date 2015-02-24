@@ -55,6 +55,7 @@ exit
 ```
 
 The equivalent of a bare exit is exit $? or even just omitting the exit.
+exit $? 與直接省略 exit，皆與上面「只有一個exit」的結果相同。
 
 ```bash
 #!/bin/bash
