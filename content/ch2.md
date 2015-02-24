@@ -317,6 +317,13 @@ Also, try starting a README file with a #!/bin/more, and making it executable. T
 
 [5]Portable Operating System Interface, an attempt to standardize UNIX-like OSes. The POSIX specifications are listed on the Open Group site.
 
+>`[5]可移植作業系統介面，一種為了標準化各種相似 UNIX 作業系統的標準，Open Group 網站有它的相關說明。`
+
 [6]To avoid this possibility, a script may begin with a #!/bin/env bash sha-bang line. This may be useful on UNIX machines where bash is not located in /bin
 
+>`[6]為了避免這樣的情形發生，腳本開頭可以改成 #!/bin/env bash。當 bash 並未在 /bin 路徑時，這方法在 UNIX 機器上可能有用。`
+
 [7]If Bash is your default shell, then the #! isn't necessary at the beginning of a script.	However, if launching a script from a different shell, such as tcsh, then you will need the #!.
+
+>`[7]如果 Bash 是你的預設指令直譯器，那麼腳本開頭可不用 #!。然而，使用不同的指令直譯器執行腳本，那麼你將需要使用 #!。`
+
