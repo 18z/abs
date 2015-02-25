@@ -67,6 +67,7 @@ COMMAND_1
 COMMAND_LAST
 
 # Will exit with status of last command.
+# 回傳最後一個被執行指令的狀態。
 
 exit $?
 ```
@@ -80,6 +81,7 @@ COMMAND1
 COMMAND_LAST
 
 # Will exit with status of last command.
+# 回傳最後一個被執行指令的狀態。
 ```
 
 $? reads the exit status of the last command executed. After a function returns, $? gives the exit status of the last command executed in the function. This is Bash's way of giving functions a "return value." [1]
