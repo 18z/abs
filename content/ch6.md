@@ -82,4 +82,72 @@ COMMAND_LAST
 # Will exit with status of last command.
 ```
 
+$? reads the exit status of the last command executed. After a function returns, $? gives the exit status of the last command executed in the function. This is Bash's way of giving functions a "return value." [1]
 
+Following the execution of a pipe, a $? gives the exit status of the last command executed.
+
+After a script terminates, a $? from the command-line gives the exit status of the script, that is, the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
+
+Example 6-1. exit / exit status
+
+```bash
+#!/bin/bash
+
+echo hello
+echo $?    # Exit status 0 returned because command executed successfully.
+
+lskdf      # Unrecognized command.
+echo $?    # Non-zero exit status returned -- command failed to execute.
+
+echo
+
+exit 113   # Will return 113 to shell.
+           # To verify this, type "echo $?" after script terminates.
+
+#  By convention, an 'exit 0' indicates success,
+#+ while a non-zero exit value means an error or anomalous condition.
+#  See the "Exit Codes With Special Meanings" appendix.
+```
+
+$? is especially useful for testing the result of a command in a script (see Example 16-35 and Example 16-20).
+
+The !, the logical not qualifier, reverses the outcome of a test or command, and this affects its exit status.
+
+Example 6-2. Negating a condition using !
+
+```bash
+true    # The "true" builtin.
+echo "exit status of \"true\" = $?"     # 0
+
+! true
+echo "exit status of \"! true\" = $?"   # 1
+# Note that the "!" needs a space between it and the command.
+#    !true   leads to a "command not found" error
+#
+# The '!' operator prefixing a command invokes the Bash history mechanism.
+
+true
+!true
+# No error this time, but no negation either.
+# It just repeats the previous command (true).
+
+
+# =========================================================== #
+# Preceding a _pipe_ with ! inverts the exit status returned.
+ls | bogus_command     # bash: bogus_command: command not found
+echo $?                # 127
+
+! ls | bogus_command   # bash: bogus_command: command not found
+echo $?                # 0
+# Note that the ! does not change the execution of the pipe.
+# Only the exit status changes.
+# =========================================================== #
+
+# Thanks, Stéphane Chazelas and Kristopher Newsome.
+```
+
+Certain exit status codes have reserved meanings and should not be user-specified in a script.
+
+Notes
+
+[1]	In those instances when there is no return terminating the function.
