@@ -84,7 +84,11 @@ COMMAND_LAST
 # 回傳最後一個被執行指令的狀態。
 ```
 
-$? reads the exit status of the last command executed. After a function returns, $? gives the exit status of the last command executed in the function. This is Bash's way of giving functions a "return value." [1]
+$? reads the exit status of the last command executed. 
+
+>`$? 會讀取最後一個被執行指令的狀態。`
+
+After a function returns, $? gives the exit status of the last command executed in the function. This is Bash's way of giving functions a "return value." [1]
 
 Following the execution of a pipe, a $? gives the exit status of the last command executed.
 
