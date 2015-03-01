@@ -98,6 +98,8 @@ This is Bash's way of giving functions a "return value." [1]
 
 Following the execution of a pipe, a $? gives the exit status of the last command executed.
 
+>`若以 pipe 串接多指令，則 $? 回傳最後被執行指令的狀態。`
+
 After a script terminates, a $? from the command-line gives the exit status of the script, that is, the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
 
 Example 6-1. exit / exit status
