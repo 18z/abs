@@ -102,6 +102,8 @@ Following the execution of a pipe, a $? gives the exit status of the last comman
 
 After a script terminates, a $? from the command-line gives the exit status of the script, that is, the last command executed in the script, which is, by convention, 0 on success or an integer in the range 1 - 255 on error.
 
+>`當一腳本終止時，$? 就會反應出最後被執行指令的狀態，0 表示被成功執行、1-255 之間的數值則表示執行時各種可能的錯誤發生。`
+
 Example 6-1. exit / exit status
 
 ```bash
