@@ -106,6 +106,8 @@ After a script terminates, a $? from the command-line gives the exit status of t
 
 Example 6-1. exit / exit status
 
+>`範例 6-1. 退出/退出狀態`
+
 ```bash
 #!/bin/bash
 
