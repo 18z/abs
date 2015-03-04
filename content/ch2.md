@@ -12,7 +12,10 @@ At the very least, this saves the effort of retyping that particular sequence of
 
 ```bash
 # Cleanup
+# 清理
+
 # Run as root, of course.
+# 當然要以 root 執行
 
 cd /var/log
 cat /dev/null > messages
