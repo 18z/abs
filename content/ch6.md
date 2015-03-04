@@ -113,6 +113,7 @@ Example 6-1. exit / exit status
 
 echo hello
 echo $?    # Exit status 0 returned because command executed successfully.
+           # 指令執行成功，回傳退出狀態值 0。
 
 lskdf      # Unrecognized command.
 echo $?    # Non-zero exit status returned -- command failed to execute.
