@@ -116,6 +116,7 @@ echo $?    # Exit status 0 returned because command executed successfully.
            # 指令執行成功，回傳退出狀態值 0。
 
 lskdf      # Unrecognized command.
+           # 無法辨識的指令。
 echo $?    # Non-zero exit status returned -- command failed to execute.
 
 echo
