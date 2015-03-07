@@ -123,6 +123,7 @@ echo $?    # Non-zero exit status returned -- command failed to execute.
 echo
 
 exit 113   # Will return 113 to shell.
+           # 回傳 133 給 shell。
            # To verify this, type "echo $?" after script terminates.
 
 #  By convention, an 'exit 0' indicates success,
