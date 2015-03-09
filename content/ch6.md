@@ -129,6 +129,8 @@ exit 113   # Will return 113 to shell.
 
 #  By convention, an 'exit 0' indicates success,
 #+ while a non-zero exit value means an error or anomalous condition.
+#  依慣例，exit 0 表示指令成功執行，若有非零值則表示異常狀況出現。
+
 #  See the "Exit Codes With Special Meanings" appendix.
 ```
 
