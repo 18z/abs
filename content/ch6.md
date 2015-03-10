@@ -132,6 +132,7 @@ exit 113   # Will return 113 to shell.
 #  依慣例，exit 0 表示指令成功執行，若有非零值則表示異常狀況出現。
 
 #  See the "Exit Codes With Special Meanings" appendix.
+#  退出值與其意涵，請參考附錄 (Exit Codes With Special Meanings)
 ```
 
 $? is especially useful for testing the result of a command in a script (see Example 16-35 and Example 16-20).
