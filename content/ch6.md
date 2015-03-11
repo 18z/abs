@@ -137,6 +137,8 @@ exit 113   # Will return 113 to shell.
 
 $? is especially useful for testing the result of a command in a script (see Example 16-35 and Example 16-20).
 
+>`$? 在測試腳本中指令執行結果上，是相當好用的。(詳見 範例 16-35 及 16-20)`
+
 The !, the logical not qualifier, reverses the outcome of a test or command, and this affects its exit status.
 
 Example 6-2. Negating a condition using !
