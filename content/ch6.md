@@ -141,6 +141,8 @@ $? is especially useful for testing the result of a command in a script (see Exa
 
 The !, the logical not qualifier, reverses the outcome of a test or command, and this affects its exit status.
 
+>`! 驚嘆號，表有否定或不符條件的意味，會使得指令或測試的結果與預期完全相反，並影響到退出的狀態值。`
+
 Example 6-2. Negating a condition using !
 
 ```bash
