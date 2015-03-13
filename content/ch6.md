@@ -145,6 +145,8 @@ The !, the logical not qualifier, reverses the outcome of a test or command, and
 
 Example 6-2. Negating a condition using !
 
+>`範例 6-2. 利用 ！來產生否定條件敘述`
+
 ```bash
 true    # The "true" builtin.
 echo "exit status of \"true\" = $?"     # 0
