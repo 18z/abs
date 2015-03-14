@@ -149,6 +149,7 @@ Example 6-2. Negating a condition using !
 
 ```bash
 true    # The "true" builtin.
+        # 內建指令 true。
 echo "exit status of \"true\" = $?"     # 0
 
 ! true
