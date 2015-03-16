@@ -157,6 +157,7 @@ echo "exit status of \"! true\" = $?"   # 1
 # Note that the "!" needs a space between it and the command.
 # 注意，「！」本身須與指令間，隔一空格。
 #    !true   leads to a "command not found" error
+# 「!true」會導致無法找到指令 (command not found)的錯誤訊息出現。 
 #
 # The '!' operator prefixing a command invokes the Bash history mechanism.
 
