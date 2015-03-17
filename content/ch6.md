@@ -160,6 +160,7 @@ echo "exit status of \"! true\" = $?"   # 1
 # 「!true」會導致無法找到指令 (command not found)的錯誤訊息出現。 
 #
 # The '!' operator prefixing a command invokes the Bash history mechanism.
+# 若將「!」連接在指令前，則會觸發 Bash 的歷史指令機制。
 
 true
 !true
