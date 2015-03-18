@@ -165,6 +165,7 @@ echo "exit status of \"! true\" = $?"   # 1
 true
 !true
 # No error this time, but no negation either.
+# 這次就沒錯誤訊息了，但也沒有產生否定條件敘述。
 # It just repeats the previous command (true).
 
 
