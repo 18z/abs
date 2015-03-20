@@ -172,6 +172,7 @@ true
 
 # =========================================================== #
 # Preceding a _pipe_ with ! inverts the exit status returned.
+# 在 _pipe_ 前面加上「！」，可將退出狀態改變。
 ls | bogus_command     # bash: bogus_command: command not found
 echo $?                # 127
 
