@@ -173,12 +173,16 @@ full quoting [single quote]. 'STRING' preserves all special characters within ST
 ,
 comma operator. The comma operator [1] links together a series of arithmetic operations. All are evaluated, but only the last one is returned.
 
+>`「逗號」，逗號[1]可用作將一連串的算數運算等等所牽連在一起的符號。如下方範例所示，只將最後的算式予以回傳。`
+
 ```bash
 	let "t2 = ((a = 9, 15 / 3))"
 	# Set "a = 9" and "t2 = 15 / 3"
 ```
 
 The comma operator can also concatenate strings.
+
+>`逗號也可用作連接字串。`
 
 ```bash
 	for file in /{,usr/}bin/*calc
