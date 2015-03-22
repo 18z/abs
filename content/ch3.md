@@ -181,6 +181,8 @@ comma operator. The comma operator [1] links together a series of arithmetic ope
 
 The comma operator can also concatenate strings.
 
+>`逗號也可用作連接字串。`
+
 ```bash
 	for file in /{,usr/}bin/*calc
 	#             ^    Find all executable files ending in "calc"
