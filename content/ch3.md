@@ -163,16 +163,16 @@ Copy all the "junk" files to $PWD.
 "
 partial quoting [double quote]. "STRING" preserves (from interpretation) most of the special characters within STRING. See Chapter 5.
 
->`『"』雙引號。"STRING"從字元或是文句之中找到大部分特殊字元符合 STRING 的字元。請見單元5。`
+>`「"」雙引號。"STRING"從字元或是文句之中找到大部分特殊字元符合 STRING 的字元。請見單元5。`
 
 '
 full quoting [single quote]. 'STRING' preserves all special characters within STRING. This is a stronger form of quoting than "STRING". See Chapter 5.
 
->`『'』單引號，全匹配。'STRING'從字元或是文句之中找到所有與STRING全匹配的特殊字元。單引號的匹對效果強過雙引號。請見單元5。`
+>`「'」單引號，全匹配。'STRING'從字元或是文句之中找到所有與STRING全匹配的特殊字元。單引號的匹對效果強過雙引號。請見單元5。`
 
 ,
 comma operator. The comma operator [1] links together a series of arithmetic operations. All are evaluated, but only the last one is returned.
->`『,』逗點，逗點是用作將一連串的算數運算等等所千連在一起的符號。如下方範例所示，只將最後的算式予以回傳。
+>`「,」逗點，逗點是用作將一連串的算數運算等等所千連在一起的符號。如下方範例所示，只將最後的算式予以回傳。`
 
 ```bash
 	let "t2 = ((a = 9, 15 / 3))"
