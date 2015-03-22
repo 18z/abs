@@ -181,6 +181,7 @@ echo $?                # 127
                        # bash: bogus_command: 找不到該指令
 echo $?                # 0
 # Note that the ! does not change the execution of the pipe.
+# 請注意，「！」並不會影響 pipe 的執行。
 # Only the exit status changes.
 # =========================================================== #
 
