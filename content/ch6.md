@@ -183,6 +183,7 @@ echo $?                # 0
 # Note that the ! does not change the execution of the pipe.
 # 請注意，「！」並不會影響 pipe 的執行。
 # Only the exit status changes.
+# 只會影響到退出狀態。
 # =========================================================== #
 
 # Thanks, Stéphane Chazelas and Kristopher Newsome.
