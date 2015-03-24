@@ -187,6 +187,7 @@ echo $?                # 0
 # =========================================================== #
 
 # Thanks, Stéphane Chazelas and Kristopher Newsome.
+# 感謝 Stéphane Chazelas 及 Kristopher Newsome。
 ```
 
 Certain exit status codes have reserved meanings and should not be user-specified in a script.
