@@ -191,6 +191,7 @@ echo $?                # 0
 ```
 
 Certain exit status codes have reserved meanings and should not be user-specified in a script.
+特定退出狀態的代碼有特定意義，使用者不應在腳本中隨意取用、定義。
 
 Notes
 
