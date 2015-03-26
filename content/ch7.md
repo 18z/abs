@@ -1,5 +1,8 @@
 Chapter 7. Tests
 
+第七章：測試
+---
+
 Table of Contents
 7.1. Test Constructs
 7.2. File test operators
