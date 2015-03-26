@@ -194,5 +194,7 @@ Certain exit status codes have reserved meanings and should not be user-specifie
 特定退出狀態的代碼有特定意義，使用者不應在腳本中隨意取用、定義。
 
 Notes
+>`備註：`
 
 [1]	In those instances when there is no return terminating the function.
+>`[1]       當函氏內無回傳值時，$? 就會給予函式中最後一個被執行指令的狀態`
