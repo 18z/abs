@@ -40,8 +40,8 @@ This book is suitable for classroom use as a general introduction to programming
   * [4 變數與參數簡介](content/ch4.md)
   * [4.1 變數替換](content/ch4-1.md)
   * [4.2 變數值](content/ch4-2.md)
-  * [4.3 Bash 變數是沒有特定類型的] (content/ch4-3.md)
-  * [4.4 變數的特殊型態] (content/ch4-4.md)
+  * [4.3 Bash 變數是沒有特定類型的](content/ch4-3.md)
+  * [4.4 變數的特殊型態](content/ch4-4.md)
   * 5 引號使用
   * [6 退出及退出狀態](content/ch6.md)
   * [7 測試](content/ch7.md)
