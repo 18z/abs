@@ -10,6 +10,8 @@ Table of Contents
 >`7.1. 測試結構`
 
 7.2. File test operators
+>`7.2. 檔案測試運算子`
+
 7.3. Other Comparison Operators
 7.4. Nested if/then Condition Tests
 7.5. Testing Your Knowledge of Tests
