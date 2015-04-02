@@ -19,5 +19,6 @@ Table of Contents
 >`7.4. 巢狀 if/then 條件測試`
 
 7.5. Testing Your Knowledge of Tests
+>`7.5. 測驗您的測試相關知識`
 
 Every reasonably complete programming language can test for a condition, then act according to the result of the test. Bash has the test command, various bracket and parenthesis operators, and the if/then construct.
