@@ -21,4 +21,7 @@ Table of Contents
 7.5. Testing Your Knowledge of Tests
 >`7.5. 測驗您的測試相關知識`
 
-Every reasonably complete programming language can test for a condition, then act according to the result of the test. Bash has the test command, various bracket and parenthesis operators, and the if/then construct.
+Every reasonably complete programming language can test for a condition, then act according to the result of the test.
+>`每個完整的程式語言皆可使用條件測試，並依據測試結果採取下一步動作。`
+
+Bash has the test command, various bracket and parenthesis operators, and the if/then construct.
