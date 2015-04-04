@@ -25,3 +25,4 @@ Every reasonably complete programming language can test for a condition, then ac
 >`每個完整的程式語言皆可使用條件測試，並依據測試結果採取下一步動作。`
 
 Bash has the test command, various bracket and parenthesis operators, and the if/then construct.
+>`Bash 提供測試指令、多重 bracket (中括號) 、括號運算子 (parenthesis operators) 及 if/then 架構。`
