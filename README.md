@@ -45,6 +45,7 @@ This book is suitable for classroom use as a general introduction to programming
   * [5 引號使用](content/ch5.md)
   * [6 退出及退出狀態](content/ch6.md)
   * [7 測試](content/ch7.md)
+  * [7.1 測試結構](content/ch7-1.md)
   * 8 運算元、運算子及其他相關主題
 
 * Part 3. 進階篇
