@@ -208,6 +208,7 @@ The comma operator can also concatenate strings.
 ```
 ,, ,
 Lowercase conversion in parameter substitution (added in version 4 of Bash).
+>`「,,」以及「,」在參數替換中用作小寫轉換代表（於版本四中的Bash新增）`
 
 \
 escape [backslash]. A quoting mechanism for single characters.
