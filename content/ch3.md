@@ -212,6 +212,7 @@ Lowercase conversion in parameter substitution (added in version 4 of Bash).
 
 \
 escape [backslash]. A quoting mechanism for single characters.
+>`「\」跳脫字元［反斜線］，一個具有引用機制的單個字元`
 
 \x escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to quote " and ', so they are expressed literally.
 
