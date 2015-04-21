@@ -215,6 +215,7 @@ escape [backslash]. A quoting mechanism for single characters.
 >`「\」跳脫字元［反斜線］，一個具有引用機制的單個字元`
 
 \x escapes the character X. This has the effect of "quoting" X, equivalent to 'X'. The \ may be used to quote " and ', so they are expressed literally.
+>`「\x」代表X從單純的字元「X」中跳脫出，而具有不同的意思，相當於「'X'」。「\」可以用於代表引用符號「"」與「'」，從而可使兩者符號被更仔細的區分。`
 
 See Chapter 5 for an in-depth explanation of escaped characters.
 
