@@ -214,9 +214,11 @@ escape [backslash]. A quoting mechanism for single characters.
 >`「\x」代表X從單純的字元「X」中跳脫出，而具有不同的意思，相當於「'X'」。「\」可以用於代表引用符號「"」與「'」，從而可使兩者符號被更仔細的區分。`
 
 See Chapter 5 for an in-depth explanation of escaped characters.
+>`可查閱第五章，獲得更詳細關於跳脫字元的解釋。`
 
 /
 Filename path separator [forward slash]. Separates the components of a filename (as in /home/bozo/projects/Makefile).
+>`「/」文件路徑分隔符號［斜線］，用作分隔文件路徑的元件（例如：/home/bozo/projects/Makefile）。`
 
 This is also the division arithmetic operator.
 
