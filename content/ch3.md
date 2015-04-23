@@ -221,9 +221,11 @@ Filename path separator [forward slash]. Separates the components of a filename 
 >`「/」文件路徑分隔符號［斜線］，用作分隔文件路徑的元件（例如：/home/bozo/projects/Makefile）。`
 
 This is also the division arithmetic operator.
+>`這也同樣是算數中相除的符號。`
 
 `
 command substitution. The `command` construct makes available the output of command for assignment to a variable. This is also known as backquotes or backticks.
+>`「`」命令替換。「`command`」建構使得一般命令可作為變數的輸出。符號同時也被稱為反引號或是反勾。`
 
 :
 null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It may be considered a synonym for the shell builtin true. The ":" command is itself a Bash builtin, and its exit status is true (0).
