@@ -229,6 +229,8 @@ command substitution. The `command` construct makes available the output of comm
 
 :
 null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It may be considered a synonym for the shell builtin true. The ":" command is itself a Bash builtin, and its exit status is true (0).
+>`「:」空白命令［冒號］，在shell之中是作為一個不進行任何事物的操作指令英文簡寫為"NOP"（no op，無操作）。冒號同時也被認定在shell的內置外殼，冒號是Bash中一個內置的命令，相當於true。`
+
 ```bash
 	:
 	echo $?   # 0
