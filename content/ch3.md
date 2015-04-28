@@ -239,3 +239,139 @@ null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothi
 	:
 	echo $?   # 0
 ```
+
+Endless loop:
+
+```
+while :
+do
+   operation-1
+   operation-2
+   ...
+   operation-n
+done
+
+# Same as:
+#    while true
+#    do
+#      ...
+#    done
+```
+
+Placeholder in if/then test:
+```
+if condition
+then :   # Do nothing and branch ahead
+else     # Or else ...
+   take-some-action
+fi
+```
+Provide a placeholder where a binary operation is expected, see Example 8-2 and default parameters.
+
+```
+: ${username=`whoami`}
+# ${username=`whoami`}   Gives an error without the leading :
+#                        unless "username" is a command or builtin...
+
+: ${1?"Usage: $0 ARGUMENT"}     # From "usage-message.sh example script.
+```
+
+Provide a placeholder where a command is expected in a here document. See Example 19-10.
+
+Evaluate string of variables using parameter substitution (as in Example 10-7).
+```
+: ${HOSTNAME?} ${USER?} ${MAIL?}
+#  Prints error message
+#+ if one or more of essential environmental variables not set.
+```
+Variable expansion / substring replacement.
+
+In combination with the > redirection operator, truncates a file to zero length, without changing its permissions. If the file did not previously exist, creates it.
+```
+: > data.xxx   # File "data.xxx" now empty.	      
+
+# Same effect as   cat /dev/null >data.xxx
+# However, this does not fork a new process, since ":" is a builtin.
+```
+See also Example 16-15.
+
+In combination with the >> redirection operator, has no effect on a pre-existing target file (: >> target_file). If the file did not previously exist, creates it.
+
+Note	
+This applies to regular files, not pipes, symlinks, and certain special files.
+
+May be used to begin a comment line, although this is not recommended. Using # for a comment turns off error checking for the remainder of that line, so almost anything may appear in a comment. However, this is not the case with :.
+```
+: This is a comment that generates an error, ( if [ $x -eq 3] ).
+```
+The ":" serves as a field separator, in /etc/passwd, and in the $PATH variable.
+```
+bash$ echo $PATH
+/usr/local/bin:/bin:/usr/bin:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/games
+```
+A colon is acceptable as a function name.
+```
+:()
+{
+  echo "The name of this function is "$FUNCNAME" "
+  # Why use a colon as a function name?
+  # It's a way of obfuscating your code.
+}
+
+:
+
+# The name of this function is :
+```
+This is not portable behavior, and therefore not a recommended practice. In fact, more recent releases of Bash do not permit this usage. An underscore _ works, though.
+
+
+A colon can serve as a placeholder in an otherwise empty function.
+```
+not_empty ()
+{
+  :
+} # Contains a : (null command), and so is not empty.
+```
+!
+reverse (or negate) the sense of a test or exit status [bang]. The ! operator inverts the exit status of the command to which it is applied (see Example 6-2). It also inverts the meaning of a test operator. This can, for example, change the sense of equal ( = ) to not-equal ( != ). The ! operator is a Bash keyword.
+
+In a different context, the ! also appears in indirect variable references.
+
+In yet another context, from the command line, the ! invokes the Bash history mechanism (see Appendix L). Note that within a script, the history mechanism is disabled.
+
+*
+wild card [asterisk]. The * character serves as a "wild card" for filename expansion in globbing. By itself, it matches every filename in a given directory.
+```
+bash$ echo *
+abs-book.sgml add-drive.sh agram.sh alias.sh
+```	      
+
+The * also represents any number (or zero) characters in a regular expression.
+
+*
+arithmetic operator. In the context of arithmetic operations, the * denotes multiplication.
+
+** A double asterisk can represent the exponentiation operator or extended file-match globbing.
+
+?
+test operator. Within certain expressions, the ? indicates a test for a condition.
+
+
+In a double-parentheses construct, the ? can serve as an element of a C-style trinary operator. [2]
+
+condition?result-if-true:result-if-false
+```
+(( var0 = var1<98?9:21 ))
+#                ^ ^
+
+# if [ "$var1" -lt 98 ]
+# then
+#   var0=9
+# else
+#   var0=21
+# fi
+```
+In a parameter substitution expression, the ? tests whether a variable has been set.
+
+?
+wild card. The ? character serves as a single-character "wild card" for filename expansion in globbing, as well as representing one character in an extended regular expression.
