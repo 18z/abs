@@ -1,5 +1,3 @@
-Chapter 2. Starting Off With a Sha-Bang
-
 第二章：從 Sha-bang (#!) 入門
 ---
 In the simplest case, a script is nothing more than a list of system commands stored in a file.
@@ -11,6 +9,7 @@ At the very least, this saves the effort of retyping that particular sequence of
 >`至少，在每次需使用一連串特定指令時，它讓使用者省了不少力氣。`
 
 **Example 2-1. cleanup: A script to clean up log files in /var/log**
+>`範例 2-1. 清理：清理路徑 /var/log 中記錄檔的腳本`
 
 ```bash
 # Cleanup
@@ -38,18 +37,26 @@ The script becomes a program -- a tool -- and it can easily be modified or custo
 >`腳本(script)可以算是一支程式(program)抑或是一個工具(tool)，並且它能針對不同應用需求而輕易去做修改或客製化。`
 
 **Example 2-2. cleanup: An improved clean-up script**
+>`範例 2-2. 清理：改善後的清理腳本`
 
 ```bash
 #!/bin/bash
 # Proper header for a Bash script.
+>`為 Bash 腳本撰寫適當的腳本標頭`
 
 # Cleanup, version 2
+>`清理紀錄的腳本第二版`
 
 # Run as root, of course.
+>`當然，要以 root 身分執行。`
+
 # Insert code here to print error message and exit if not root.
+> `撰寫腳本判斷非 root 身分執行時，印出錯誤訊息並離開。`
 
 LOG_DIR=/var/log
 # Variables are better than hard-coded values.
+>`使用變數指定路徑比寫死在腳本中好`
+
 cd $LOG_DIR
 
 cat /dev/null > messages
