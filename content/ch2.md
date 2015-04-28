@@ -42,20 +42,20 @@ The script becomes a program -- a tool -- and it can easily be modified or custo
 ```bash
 #!/bin/bash
 # Proper header for a Bash script.
->`為 Bash 腳本撰寫適當的腳本標頭`
+# 為 Bash 腳本撰寫適當的腳本標頭
 
 # Cleanup, version 2
->`清理紀錄的腳本第二版`
+# 清理紀錄的腳本第二版
 
 # Run as root, of course.
->`當然，要以 root 身分執行。`
+# 當然，要以 root 身分執行。`
 
 # Insert code here to print error message and exit if not root.
-> `撰寫腳本判斷非 root 身分執行時，印出錯誤訊息並離開。`
+# 撰寫腳本判斷非 root 身分執行時，印出錯誤訊息並離開。`
 
 LOG_DIR=/var/log
 # Variables are better than hard-coded values.
->`使用變數指定路徑比寫死在腳本中好`
+# 使用變數指定路徑比寫死在腳本中好`
 
 cd $LOG_DIR
 
