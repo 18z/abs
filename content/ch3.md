@@ -237,6 +237,7 @@ null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothi
 ```
 
 Endless loop:
+>`無限迴圈：`
 
 ```
 while :
@@ -255,6 +256,7 @@ done
 ```
 
 Placeholder in if/then test:
+>`於判斷循環中的暫駐測試：`
 ```
 if condition
 then :   # Do nothing and branch ahead
