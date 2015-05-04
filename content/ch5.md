@@ -13,7 +13,7 @@ This has the effect of protecting special characters in the string from reinterp
 
 (A character is "special" if it has an interpretation other than its literal meaning.
 
->`(若一個字元可以有別於字面上的原義之解讀，則稱此字元為 "特殊字元"。`
+>`(若一個字元可以有別於字面上的原意之解讀，則稱此字元為 "特殊字元"。`
 
 For example, the asterisk * represents a *wild card* character in globbing and Regular Expressions).
 
@@ -35,7 +35,7 @@ In everyday speech or writing, when we "quote" a phrase, we set it apart and giv
 
 In a Bash script, when we *quote* a string, we set it apart and protect its *literal* meaning.
 
->`在一個 Bash 腳本中，當我們用 "引號包住" 一段字串時，它將與眾不同，並保護它字面上的原義。`
+>`在一個 Bash 腳本中，當我們用 "引號包住" 一段字串時，它將與眾不同，並保護它字面上的原意。`
 
 Certain programs and utilities reinterpret or expand special characters in a quoted string.
 
