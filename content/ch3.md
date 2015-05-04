@@ -265,7 +265,7 @@ else     # Or else ...
 fi
 ```
 Provide a placeholder where a binary operation is expected, see Example 8-2 and default parameters.
-
+>`於二進位運算發生時提供暫駐行為。可在範例8-2與一般變數中看到參考。`
 ```
 : ${username=`whoami`}
 # ${username=`whoami`}   Gives an error without the leading :
