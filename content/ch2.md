@@ -68,7 +68,7 @@ echo "Logs cleaned up."
 exit #  The right and proper method of "exiting" from a script.
      #  A bare "exit" (no parameter) returns the exit status
      #+ of the preceding command. 
-	 #  exit 指令是切確且適當離開腳本的方法，單純下 exit 指令(不帶任何參數)會回傳上一個指令的狀態。
+	 #  exit 指令是切確且適當離開腳本的方法，單純下 exit 指令(不帶任何參數)會回傳上一個指令的結束狀態。
 ```
 
 Now that's beginning to look like a real script. But we can go even farther . . .
