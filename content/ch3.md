@@ -277,8 +277,8 @@ Provide a placeholder where a binary operation is expected, see Example 8-2 and 
 : ${1?"Usage: $0 ARGUMENT"}     # From "usage-message.sh example script.
 ```
 
-Provide a placeholder where a command is expected in a here document. See Example 19-10.
->`在 Here document 命令之中提供一個暫駐，見範例19-10。`
+Provide a placeholder where a command is expected in a <a href="http://tldp.org/LDP/abs/html/here-docs.html#HEREDOCREF">here document</a>. See Example 19-10.
+>`在 <a href="http://tldp.org/LDP/abs/html/here-docs.html#HEREDOCREF">Here document</a> 命令之中提供一個暫駐，見範例19-10。`
 
 Evaluate string of variables using parameter substitution (as in Example 10-7).
 >`使用參數替換評估字符串變量（如範例10-7）。`
