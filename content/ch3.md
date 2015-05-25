@@ -257,6 +257,7 @@ done
 
 Placeholder in if/then test:
 >`於判斷循環中的暫駐測試：`
+
 ```
 if condition
 then :   # Do nothing and branch ahead
@@ -264,8 +265,10 @@ else     # Or else ...
    take-some-action
 fi
 ```
+
 Provide a placeholder where a binary operation is expected, see Example 8-2 and default parameters.
 >`於二進位運算發生時提供暫駐行為。可在範例8-2與一般變數中看到參考。`
+
 ```
 : ${username=`whoami`}
 # ${username=`whoami`}   Gives an error without the leading :
@@ -273,11 +276,13 @@ Provide a placeholder where a binary operation is expected, see Example 8-2 and 
 
 : ${1?"Usage: $0 ARGUMENT"}     # From "usage-message.sh example script.
 ```
+
 Provide a placeholder where a command is expected in a here document. See Example 19-10.
->`在位於文件命令之中提供一個暫駐，見範例19-10。`
+>`在 Here document 命令之中提供一個暫駐，見範例19-10。`
 
 Evaluate string of variables using parameter substitution (as in Example 10-7).
 >`使用參數替換評估字符串變量（如範例10-7）。`
+
 ```
 : ${HOSTNAME?} ${USER?} ${MAIL?}
 #  Prints error message
