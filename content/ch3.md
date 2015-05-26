@@ -279,10 +279,8 @@ Provide a placeholder where a binary operation is expected, see Example 8-2 and 
 ```
 
 Provide a placeholder where a command is expected in a here document. See Example 19-10.
->`在位於文件命令之中提供一個暫駐，見範例19-10。`
 
 Evaluate string of variables using parameter substitution (as in Example 10-7).
->`使用參數替換評估字符串變量（如例10-7）。`
 ```
 : ${HOSTNAME?} ${USER?} ${MAIL?}
 #  Prints error message
