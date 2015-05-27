@@ -293,8 +293,11 @@ Evaluate string of variables using parameter substitution (as in Example 10-7).
 #+ if one or more of essential environmental variables not set.
 ```
 Variable expansion / substring replacement.
+>`變數延伸 / 字串替換`
 
 In combination with the > redirection operator, truncates a file to zero length, without changing its permissions. If the file did not previously exist, creates it.
+>`在與重新定向操作符「>」的結合，將文件截為零資料長度，同時不改變檔案的權限。假若檔案之前並不存在，則將其創建。`
+
 ```
 : > data.xxx   # File "data.xxx" now empty.	      
 
