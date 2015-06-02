@@ -305,8 +305,10 @@ In combination with the > redirection operator, truncates a file to zero length,
 # However, this does not fork a new process, since ":" is a builtin.
 ```
 See also Example 16-15.
+>`請見範例 16-15。`
 
 In combination with the >> redirection operator, has no effect on a pre-existing target file (: >> target_file). If the file did not previously exist, creates it.
+>`與重新指向符號「>>」合併使用，對先前存在的指向位置檔案(: >> 目標檔案)無效。假若檔案不存在，則創建它。`
 
 Note	
 This applies to regular files, not pipes, symlinks, and certain special files.
