@@ -312,8 +312,11 @@ In combination with the >> redirection operator, has no effect on a pre-existing
 
 Note	
 This applies to regular files, not pipes, symlinks, and certain special files.
+>`註記，這只能應用在一般檔案，無法套用至 pipes、symlinks 以及特定的特別檔案。`
 
 May be used to begin a comment line, although this is not recommended. Using # for a comment turns off error checking for the remainder of that line, so almost anything may appear in a comment. However, this is not the case with :.
+>`可用於開始一個註記列，不過並不建議如此使用。使用「#」作為註記，關閉錯誤檢查機制用以省略此行，所以幾乎所有物件、文字都可以出現在這行註記中。但是以下是不符合情的情況：。`
+
 ```
 : This is a comment that generates an error, ( if [ $x -eq 3] ).
 ```
