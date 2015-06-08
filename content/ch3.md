@@ -321,6 +321,8 @@ May be used to begin a comment line, although this is not recommended. Using # f
 : This is a comment that generates an error, ( if [ $x -eq 3] ).
 ```
 The ":" serves as a field separator, in /etc/passwd, and in the $PATH variable.
+>`「:」符號作為分隔用途，像是位於絕對路徑「/etc/passwd」或是在路徑變數之中。`
+
 ```
 bash$ echo $PATH
 /usr/local/bin:/bin:/usr/bin:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/games
