@@ -312,12 +312,17 @@ In combination with the >> redirection operator, has no effect on a pre-existing
 
 Note	
 This applies to regular files, not pipes, symlinks, and certain special files.
+>`註記，這只能應用在一般檔案，無法套用至 pipes、symlinks 以及特定的特別檔案。`
 
 May be used to begin a comment line, although this is not recommended. Using # for a comment turns off error checking for the remainder of that line, so almost anything may appear in a comment. However, this is not the case with :.
+>`註解時，最開頭可使用註解符號：表示此行為註解，但不建議使用此註解符號。建議使用註解符號 # 為註解行之開頭。因其會關閉錯誤檢查機制，讓註解文字皆可正常顯示在註解中。反之，使用：註解符號可能就無法正常顯示所有註解文字。。`
+
 ```
 : This is a comment that generates an error, ( if [ $x -eq 3] ).
 ```
 The ":" serves as a field separator, in /etc/passwd, and in the $PATH variable.
+>`「:」符號作為分隔用途，像是位於絕對路徑「/etc/passwd」或是在路徑變數之中。`
+
 ```
 bash$ echo $PATH
 /usr/local/bin:/bin:/usr/bin:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/games
