@@ -328,6 +328,7 @@ bash$ echo $PATH
 /usr/local/bin:/bin:/usr/bin:/usr/X11R6/bin:/sbin:/usr/sbin:/usr/games
 ```
 A colon is acceptable as a function name.
+>`在程式中的函數名稱中，冒號是被許可加入的其中的元素之一。`
 ```
 :()
 {
