@@ -342,9 +342,10 @@ A colon is acceptable as a function name.
 # The name of this function is :
 ```
 This is not portable behavior, and therefore not a recommended practice. In fact, more recent releases of Bash do not permit this usage. An underscore _ works, though.
-
+>`這是不可移植的作法，因此不推薦這樣的行為。事實上，最近所釋出的Bash版本並不允許這種用法。但使用下劃線「_」即可運作。`
 
 A colon can serve as a placeholder in an otherwise empty function.
+>`在空函數之中，冒號可做為暫駐功能。`
 ```
 not_empty ()
 {
