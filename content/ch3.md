@@ -354,10 +354,13 @@ not_empty ()
 ```
 !
 reverse (or negate) the sense of a test or exit status [bang]. The ! operator inverts the exit status of the command to which it is applied (see Example 6-2). It also inverts the meaning of a test operator. This can, for example, change the sense of equal ( = ) to not-equal ( != ). The ! operator is a Bash keyword.
+>`反轉（或否定）測試或退出當前程式狀態的用途[bang]。驚嘆號用作反轉命令，以及其所施加的退出狀態（請參照範例6-2），同時驚嘆號也可反轉操作者的意圖，例如將等於（=）轉為不等於（!=）。驚嘆號是Bash中的關鍵單字。`
 
 In a different context, the ! also appears in indirect variable references.
+>`在不同的內文之中，驚嘆號也出現在間接變數的引用之中。`
 
 In yet another context, from the command line, the ! invokes the Bash history mechanism (see Appendix L). Note that within a script, the history mechanism is disabled.
+>`另一方面，在命令列中，驚嘆號調用Bash的歷史紀錄（請見 Appendix L）。請注意在腳本中，歷史紀錄是無法作用的。`
 
 *
 wild card [asterisk]. The * character serves as a "wild card" for filename expansion in globbing. By itself, it matches every filename in a given directory.
