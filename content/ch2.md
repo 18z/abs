@@ -76,10 +76,12 @@ Now that's beginning to look like a real script. But we can go even farther . . 
 >`現在這腳本越來越像樣了，但我們還可以再走遠一點點。`
 
 **Example 2-3. cleanup: An enhanced and generalized version of above scripts.**
+>`範例 2-3. 清理：加強與普遍版本以上的腳本`
 
 ```bash
 #!/bin/bash
 # Cleanup, version 3
+# 清理紀錄的腳本第三版
 
 #  Warning:
 #  -------
@@ -87,6 +89,9 @@ Now that's beginning to look like a real script. But we can go even farther . . 
 #+ later on.
 #  By the time you've finished the first half of the book,
 #+ there should be nothing mysterious about it.
+# 敬告：
+# 此腳本使用的一些功能將會在後續做解釋。
+# 此時，你已經完成此書的第一個段落，應該沒有任何神祕的地方。
 
 
 
