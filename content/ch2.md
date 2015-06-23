@@ -76,7 +76,7 @@ Now that's beginning to look like a real script. But we can go even farther . . 
 >`現在這腳本越來越像樣了，但我們還可以再走遠一點點。`
 
 **Example 2-3. cleanup: An enhanced and generalized version of above scripts.**
->`範例 2-3. 清理：加強與普遍版本以上的腳本`
+>`範例 2-3. 清理：強化與一般性的版本`
 
 ```bash
 #!/bin/bash
@@ -97,12 +97,17 @@ Now that's beginning to look like a real script. But we can go even farther . . 
 
 LOG_DIR=/var/log
 ROOT_UID=0     # Only users with $UID 0 have root privileges.
+			   # 只有$UID為0的使用者擁有root權限
 LINES=50       # Default number of lines saved.
+			   # 預設儲存的行數
 E_XCD=86       # Can't change directory?
+			   # 無法變化目錄？
 E_NOTROOT=87   # Non-root exit error.
+			   # 非root離開錯誤
 
 
 # Run as root, of course.
+# 當然，要以 root 身分執行。
 if [ "$UID" -ne "$ROOT_UID" ]
 then
   echo "Must be root to run this script."
@@ -111,18 +116,22 @@ fi
 
 if [ -n "$1" ]
 # Test whether command-line argument is present (non-empty).
+# 測試參數 command-line 是否存在(非空值)
 then
   lines=$1
 else  
   lines=$LINES # Default, if not specified on command-line.
+			   # 預設數值，如果沒有特別指定 command-line
 fi  
 
 
 #  Stephane Chazelas suggests the following,
 #+ as a better way of checking command-line arguments,
 #+ but this is still a bit advanced for this stage of the tutorial.
+# Stephane Chazelas 提出以下腳本，是更好的方法去確認 command-line 參數，但對現階段教程只有一點好處。
 #
 #    E_WRONGARGS=85  # Non-numerical argument (bad argument format).
+#					 # 非數字的參數（不佳的參數格式）
 #
 #    case "$1" in
 #    ""      ) lines=50;;
@@ -132,7 +141,7 @@ fi
 #    esac
 #
 #* Skip ahead to "Loops" chapter to decipher all this.
-
+# 忽略它直到 "Loops" 章節去解密這一切
 
 cd $LOG_DIR
 
@@ -142,8 +151,9 @@ then
   echo "Can't change to $LOG_DIR."
   exit $E_XCD
 fi  # Doublecheck if in right directory before messing with log file.
-
+	# 在搞亂記錄檔前雙重確認是否在正確的目錄中
 # Far more efficient is:
+# 更有效率的寫法是：
 #
 # cd /var/log || {
 #   echo "Cannot change to necessary directory." >&2
@@ -154,20 +164,26 @@ fi  # Doublecheck if in right directory before messing with log file.
 
 
 tail -n $lines messages > mesg.temp # Save last section of message log file.
+									# 儲存最近的 message log file
 mv mesg.temp messages               # Rename it as system log file.
+									# 重新命名成 system log file
 
 
 #  cat /dev/null > messages
 #* No longer needed, as the above method is safer.
+# 不再需要上述指令動作，儘管這方法更加安全
 
 cat /dev/null > wtmp  #  ': > wtmp' and '> wtmp'  have the same effect.
+					  # ': > wtmp'與'> wtmp'有同樣的效果
 echo "Log files cleaned up."
 #  Note that there are other log files in /var/log not affected
 #+ by this script.
+# 留意在路徑 /var/log 中有其他 log files 不受此腳本影響
 
 exit 0
 #  A zero return value from the script upon exit indicates success
 #+ to the shell.
+# 直到該 shell 成功執行腳本後會回傳 0 值
 ```
 
 Since you may not wish to wipe out the entire system log, this version of the script keeps the last section of the message log intact. 
