@@ -277,6 +277,7 @@ if [ $# -ne $Number_of_expected_args ]
 then
   echo "Usage: `basename $0` $script_parameters"
   # `basename $0` is the script's filename.
+  # `basename $0` 顯示腳本的檔案名稱
   exit $E_WRONG_ARGS
 fi
 ```
