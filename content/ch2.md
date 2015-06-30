@@ -322,6 +322,7 @@ a=1
 
 #!/bin/bash
 # This does *not* launch a new script.
+# 這並不會啟動新的腳本
 
 echo "Part 2 of script."
 echo $a  # Value of $a stays at 1.
@@ -334,6 +335,7 @@ echo $a  # Value of $a stays at 1.
 ```bash
 #!/bin/rm
 # Self-deleting script.
+# 自行刪除腳本
 
 # Nothing much seems to happen when you run this... except that the file disappears.
 
