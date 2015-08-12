@@ -18,8 +18,8 @@ Goldie Lin	每週三句
 翻譯者 / 正在翻譯章節：
 
 ```
-deanboole	ch6
-colorbook	ch2	
+deanboole	ch7-2
+colorbook	休息中	
 klaywang03	
 Rslw		ch3
 Goldie Lin	ch4-2..ch5
