@@ -44,6 +44,7 @@ This book is suitable for classroom use as a general introduction to programming
   * [4.4 特殊的變數型態](content/ch4-4.md)
   * [5 引號使用](content/ch5.md)
   * [5.1 引用變數](content/ch5-1.md)
+  * [5.2 跳脫](content/ch5-2.md)
   * [6 退出及退出狀態](content/ch6.md)
   * [7 測試](content/ch7.md)
   * [7.1 測試結構](content/ch7-1.md)
