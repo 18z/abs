@@ -22,7 +22,7 @@ deanboole	ch7-2
 colorbook	休息中	
 klaywang03	
 Rslw		ch3
-Goldie Lin	ch4-2..ch5
+Goldie Lin	ch8-1..ch8-4
 ```
 
 翻譯流程：
