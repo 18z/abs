@@ -1,9 +1,13 @@
 ### 翻譯看板
-
-
 * 近期目標：將整本書翻譯完，產出中文初稿。
 * 中期目標：潤稿。
 * 長期目標：完成翻譯及潤稿，並分享給有需要的朋友。
+
+All this will not be finished in the first one hundred days. Nor will it be finished in the first one thousand days, nor in the life of this Administration, nor even perhaps in our lifetime on this planet. 
+
+But let us begin.
+
+by John F. Kennedy
 
 翻譯節奏：
 
