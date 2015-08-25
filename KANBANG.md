@@ -13,7 +13,7 @@ by John F. Kennedy
 
 ```
 deanboole	每天一句
-colorbook	每週三句
+colorbook	休息
 klaywang03	
 Rslw		每天一句
 Goldie Lin	每週三句
