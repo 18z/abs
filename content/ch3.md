@@ -334,7 +334,9 @@ A colon is acceptable as a function name.
 {
   echo "The name of this function is "$FUNCNAME" "
   # Why use a colon as a function name?
+  >`#為何使用冒號作為函數名稱？`
   # It's a way of obfuscating your code.
+  >`#但這是一種會混淆你的程式的作法。`
 }
 
 :
