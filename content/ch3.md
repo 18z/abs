@@ -342,9 +342,10 @@ A colon is acceptable as a function name.
 :
 
 # The name of this function is :
+>`#此函數之名稱為『:』`
 ```
 This is not portable behavior, and therefore not a recommended practice. In fact, more recent releases of Bash do not permit this usage. An underscore _ works, though.
-
+>`這並不是一個可以移植的行為，也因此並不推薦這樣的作法。事實上，近期所釋出的版本並不允許此種用法。雖然下劃線『_』卻能運行。`
 
 A colon can serve as a placeholder in an otherwise empty function.
 ```
