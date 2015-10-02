@@ -348,6 +348,7 @@ This is not portable behavior, and therefore not a recommended practice. In fact
 >`這並不是一個可以移植的行為，也因此並不推薦這樣的作法。事實上，近期所釋出的版本並不允許此種用法。雖然下劃線『_』卻能運行。`
 
 A colon can serve as a placeholder in an otherwise empty function.
+>`冒號可在其他的空白函數中作為佔位符。`
 ```
 not_empty ()
 {
