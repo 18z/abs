@@ -368,6 +368,7 @@ In yet another context, from the command line, the ! invokes the Bash history me
 
 *
 wild card [asterisk]. The * character serves as a "wild card" for filename expansion in globbing. By itself, it matches every filename in a given directory.
+>`通配符，星號『*』。星號符號做為檔案名的通配符號，它的作用可以符合當下或者使用者所給予的資料夾中任何檔案字元名稱。`
 ```
 bash$ echo *
 abs-book.sgml add-drive.sh agram.sh alias.sh
