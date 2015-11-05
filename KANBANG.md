@@ -22,7 +22,7 @@ Goldie Lin	每週三句
 翻譯者 / 正在翻譯章節：
 
 ```
-deanboole	ch7-2
+deanboole	ch9-1
 colorbook	休息中	
 klaywang03	
 Rslw		ch3
