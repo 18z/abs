@@ -50,6 +50,7 @@ This book is suitable for classroom use as a general introduction to programming
   * [7.1 測試結構](content/ch7-1.md)
   * [7.2 檔案測試運算子](content/ch7-2.md)
   * 8 運算元、運算子及其他相關主題
+  * [8.1 運算子](content/ch8-1.md)
 
 * Part 3. 進階篇
   * 9 再論變數
