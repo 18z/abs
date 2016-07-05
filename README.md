@@ -53,6 +53,7 @@ This book is suitable for classroom use as a general introduction to programming
   * [8.1 運算子](content/ch8-1.md)
   * [8.2 數字常數](content/ch8-2.md)
   * [8.3 雙小括號結構](content/ch8-3.md)
+  * [8.4 運算子優先權](content/ch8-4.md)
 
 * Part 3. 進階篇
   * 9 再論變數
