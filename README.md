@@ -58,6 +58,7 @@ This book is suitable for classroom use as a general introduction to programming
 * Part 3. 進階篇
   * 9 再論變數
   * [9.1 內部變數](content/ch9-1.md)
+  * [9.2 變數型態：宣告與設定](content/ch9-2.md)
   * 10 操弄變數
   * 11 迴圈(Loops)與分流(Branches)
   * 12 指令替換
