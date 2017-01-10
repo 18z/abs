@@ -17,6 +17,7 @@ colorbook	每週三句
 klaywang03	
 Rslw		每天一句
 Goldie Lin	每週三句
+Hao-Ting 每天一句
 ```
 
 翻譯者 / 正在翻譯章節：
@@ -27,6 +28,7 @@ colorbook	休息中
 klaywang03	
 Rslw		ch3
 Goldie Lin	ch10-1..ch10-2
+Hao-Ting ch11
 ```
 
 翻譯流程：
