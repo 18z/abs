@@ -62,7 +62,7 @@ This book is suitable for classroom use as a general introduction to programming
   * [9.3 $RAMDOM: 產生隨機變數](content/ch9-3.md)
   * 10 操弄變數
   * 11 迴圈(Loops)與分流(Branches)
-  * 11.1 迴圈(content/ch11-1.md)
+  * [11.1 迴圈](content/ch11-1.md)
   * 12 指令替換
   * 13 算術擴展
   * 14 課間休息
