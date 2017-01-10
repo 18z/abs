@@ -28,7 +28,7 @@ colorbook	休息中
 klaywang03	
 Rslw		ch3
 Goldie Lin	ch10-1..ch10-2
-Hao-Ting     ch11
+Hao-Ting    ch11
 ```
 
 翻譯流程：
